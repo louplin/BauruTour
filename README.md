@@ -10,7 +10,7 @@ Um guia desktop para descobrir a **história, a cultura e os pontos turísticos*
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-B84FE8?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-2EA44F?style=for-the-badge)
 
 </div>
 
@@ -20,7 +20,7 @@ Um guia desktop para descobrir a **história, a cultura e os pontos turísticos*
 
 **Bauru's Tour** é um aplicativo desktop que reúne, em um só lugar, os principais pontos turísticos de Bauru: parques, museus, teatro, centros culturais e muito mais.
 
-A ideia é simples: o usuário digita o que quer conhecer, busca, e recebe uma lista de lugares com informações claras, endereço e link direto para o mapa.
+A ideia é simples: o usuário digita o que quer conhecer, busca, e recebe uma lista de lugares com foto, descrição, endereço e link direto para o mapa. Os lugares preferidos podem ser salvos nos **favoritos** e continuam lá na próxima vez que o app for aberto.
 
 O projeto nasceu como trabalho da faculdade e também como uma forma de aprender **arquitetura de software** na prática, separando tela, regras e dados em camadas bem definidas.
 
@@ -34,29 +34,34 @@ O projeto nasceu como trabalho da faculdade e também como uma forma de aprender
 
 ---
 
-## ✨ Ideias e funcionalidades
+## ✨ Funcionalidades
 
 - [x] 🏁 **Tela inicial** com o convite *"Começar minha jornada"*
 - [x] 🔎 **Tela de busca** com campo de pesquisa e botão **Buscar**
 - [x] 📦 **Base de dados** em JSON com **21 pontos turísticos** divididos em **4 categorias**
 - [x] 🧱 **Camadas de Models e Data** funcionando
-- [ ] 📋 **Lista de resultados** exibida ao clicar em *Buscar*
-- [ ] 🧠 **Camada de Services** com busca por **nome** e por **categoria**
-- [ ] 🖼️ **Tela de detalhes** com imagem, descrição e endereço do ponto
-- [ ] 📍 Botão **"Abrir no Maps"** usando o link de cada local
-- [ ] 🎨 Filtro rápido por categoria
+- [x] 🧠 **Camada de Services** com busca por **nome** e por **categoria**
+- [x] 📋 **Lista de resultados** em cards exibida ao clicar em *Buscar*
+- [x] 🎨 **Filtro rápido por categoria** (chips de categoria)
+- [x] ❤️ **Favoritos**: salve seus pontos preferidos, que continuam salvos ao fechar o app
+- [x] 🖼️ **Tela de detalhes** com descrição e endereço do ponto
+- [x] 📸 **Foto de capa** em cada ponto e **galeria de fotos** na tela de detalhes
+- [x] 📍 Botão **"Abrir no Maps"** usando o link de cada local
+- [x] 🖥️ **Layout redesenhado**: tema claro, menu lateral (Início, Mapa, Favoritos, Sobre) e tela cheia
 
 ---
 
 ## 🖼️ Telas
 
-> Adicione aqui as capturas de tela do app (veja a dica no final do arquivo).
-
 <div align="center">
 
-| Tela de busca |
-|:---:|
-| ![Tela de busca](docs/tela-busca.png) |
+| Tela inicial | Tela de busca |
+|:---:|:---:|
+| ![Tela inicial](docs/tela-inicial.png) | ![Tela de busca](docs/tela-busca.png) |
+
+| Detalhes e galeria | Favoritos |
+|:---:|:---:|
+| ![Tela de detalhes](docs/tela-detalhes.png) | ![Favoritos](docs/tela-favoritos.png) |
 
 </div>
 
@@ -72,7 +77,7 @@ O projeto segue a ideia de **separar responsabilidades**: cada camada faz uma co
 └──────────────┬──────────────┘
                │
 ┌──────────────▼──────────────┐
-│   Services                  │   ← regras: buscar por nome, filtrar por categoria
+│   Services                  │   ← regras: buscar por nome, filtrar por categoria, favoritos
 └──────────────┬──────────────┘
                │
 ┌──────────────▼──────────────┐
@@ -124,6 +129,8 @@ cd Bauru-s-Tour
 # 3. Abra a solução no Visual Studio e pressione F5
 ```
 
+> 💡 Dica: pressione **Esc** para fechar o app, que roda em tela cheia.
+
 ---
 
 ## 🧭 Roadmap
@@ -132,11 +139,20 @@ cd Bauru-s-Tour
 ✅ Definir tema, público e dados
 ✅ Criar modelos e leitura do JSON
 ✅ Desenhar tela inicial e tela de busca
-🔜 Exibir lista de resultados na busca
-🔜 Implementar busca por nome e categoria
-🔜 Tela de detalhes do ponto turístico
-🔜 Integração com o link do mapa
+✅ Exibir lista de resultados na busca
+✅ Implementar busca por nome e categoria
+✅ Favoritos com persistência
+✅ Tela de detalhes com galeria de fotos
+✅ Integração com o link do mapa
+✅ Redesenho da interface
 ```
+
+### 🔮 Ideias para o futuro
+
+- Mais pontos turísticos e novas categorias
+- Roteiros prontos (ex.: "um dia em Bauru")
+- Mapa integrado dentro do próprio app
+- Versão para celular ou web
 
 ---
 
@@ -146,7 +162,7 @@ Feito com 💜 por:
 
 <div align="center">
 
-| 👤 **Vinicius Cury** | 👤 **Matheus Faria** | 👤 **Luiz Otávio Pavanato** | 👤 **Gustavo Fontanez** |
+| 👤 **Vinicius Cury** | 👤 **Matheus Faria** | 👤 **Luis Otávio Pavanato** | 👤 **Gustavo Fontanez** |
 |:---:|:---:|:---:|:---:|
 | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/viniciuscury147-spec) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/louplin) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://gist.github.com/luispavanato) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/gustavohfontanez2007-lgtm) |
 | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinicius-cury-258896324/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheusqfaria/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-ot%C3%A1vio-capoani-pavanato-613b1a378) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-fontanez-177512403) |
