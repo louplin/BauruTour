@@ -1,8 +1,13 @@
-﻿using BauruTuor.Data;
-using BauruTuor.Models;
+using System.Globalization;
+using System.Text;
+using BaurusTour.Data;
+using BaurusTour.Models;
 
-namespace BauruTuor.Services
+namespace BaurusTour.Services
 {
+    /// <summary>
+    /// Busca e filtro dos pontos turísticos.
+    /// </summary>
     public class PontoTuristicoService
     {
         private readonly List<PontoTuristico> _pontos;
@@ -17,32 +22,62 @@ namespace BauruTuor.Services
             return _pontos;
         }
 
-        public PontoTuristico? BuscarPorId(int id)
+        /// <summary>
+        /// Filtra os pontos pelo texto digitado, pela categoria escolhida e,
+        /// se for a aba Favoritos, só pelos ids favoritados.
+        /// </summary>
+        public List<PontoTuristico> Pesquisar(string texto, string categoria, List<int>? somenteIds)
         {
-            return _pontos.FirstOrDefault(p => p.Id == id);
+            string termo = SemAcento(texto);
+            var resultado = new List<PontoTuristico>();
+
+            foreach (PontoTuristico ponto in _pontos)
+            {
+                // Aba Favoritos: pula quem não está favoritado
+                if (somenteIds != null && !somenteIds.Contains(ponto.Id))
+                    continue;
+
+                // Categoria: "Todos" mostra tudo
+                if (categoria != "Todos" && ponto.Categoria != categoria)
+                    continue;
+
+                // Texto: procura no nome, na categoria, no endereço e na descrição
+                if (termo != "")
+                {
+                    bool achou = SemAcento(ponto.Nome).Contains(termo)
+                              || SemAcento(ponto.Categoria).Contains(termo)
+                              || SemAcento(ponto.Endereco).Contains(termo)
+                              || SemAcento(ponto.Descricao).Contains(termo);
+
+                    if (!achou)
+                        continue;
+                }
+
+                resultado.Add(ponto);
+            }
+
+            return resultado;
         }
 
-        public List<PontoTuristico> BuscarPorNome(string texto)
+        /// <summary>
+        /// Deixa o texto minúsculo e sem acento: "Zoológico" vira "zoologico".
+        /// Assim a busca funciona mesmo se a pessoa digitar sem acento.
+        /// </summary>
+        private static string SemAcento(string texto)
         {
-            return _pontos
-                .Where(p => p.Nome.Contains(texto, StringComparison.OrdinalIgnoreCase))
-                .ToList();
-        }
+            if (string.IsNullOrWhiteSpace(texto))
+                return "";
 
-        public List<PontoTuristico> FiltrarPorCategoria(string categoria)
-        {
-            return _pontos
-                .Where(p => p.Categoria.Equals(categoria, StringComparison.OrdinalIgnoreCase))
-                .ToList();
-        }
+            string separado = texto.Trim().ToLower().Normalize(NormalizationForm.FormD);
+            var sb = new StringBuilder();
 
-        public List<string> ListarCategorias()
-        {
-            return _pontos
-                .Select(p => p.Categoria)
-                .Distinct()
-                .OrderBy(c => c)
-                .ToList();
+            foreach (char letra in separado)
+            {
+                if (CharUnicodeInfo.GetUnicodeCategory(letra) != UnicodeCategory.NonSpacingMark)
+                    sb.Append(letra);
+            }
+
+            return sb.ToString();
         }
     }
 }

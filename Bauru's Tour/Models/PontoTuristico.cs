@@ -1,5 +1,9 @@
-namespace BauruTuor.Models
+namespace BaurusTour.Models
 {
+    /// <summary>
+    /// Representa um ponto turístico lido do arquivo pontos.json.
+    /// Os nomes das propriedades são iguais às chaves do JSON.
+    /// </summary>
     public class PontoTuristico
     {
         public int Id { get; set; }
