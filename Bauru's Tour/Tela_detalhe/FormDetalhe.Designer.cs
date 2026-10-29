@@ -34,6 +34,7 @@
             lblDescricao = new Label();
             btnMapa = new Button();
             btnVoltar = new Button();
+            lblFavorito = new Label();
             ((System.ComponentModel.ISupportInitialize)picFoto).BeginInit();
             SuspendLayout();
             // 
@@ -114,12 +115,27 @@
             btnVoltar.UseVisualStyleBackColor = true;
             btnVoltar.Click += btnVoltar_Click;
             // 
+            // lblFavorito
+            // 
+            lblFavorito.AutoSize = true;
+            lblFavorito.BackColor = Color.Transparent;
+            lblFavorito.Cursor = Cursors.Hand;
+            lblFavorito.Font = new Font("Segoe UI", 28F);
+            lblFavorito.ForeColor = Color.FromArgb(220, 40, 60);
+            lblFavorito.Location = new Point(460, 474);
+            lblFavorito.Name = "lblFavorito";
+            lblFavorito.Size = new Size(48, 51);
+            lblFavorito.TabIndex = 6;
+            lblFavorito.Text = "♡";
+            lblFavorito.Click += lblFavorito_Click;
+            // 
             // FormDetalhe
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(250, 250, 248);
             ClientSize = new Size(984, 561);
+            Controls.Add(lblFavorito);
             Controls.Add(btnVoltar);
             Controls.Add(btnMapa);
             Controls.Add(lblDescricao);
@@ -131,6 +147,7 @@
             Load += FormDetalhe_Load;
             ((System.ComponentModel.ISupportInitialize)picFoto).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -141,5 +158,6 @@
         private Label lblDescricao;
         private Button btnMapa;
         private Button btnVoltar;
+        private Label lblFavorito;
     }
 }

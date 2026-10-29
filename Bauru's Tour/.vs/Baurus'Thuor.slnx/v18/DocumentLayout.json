@@ -3,61 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\tela_busca\\tela_detalhe\\formdetalhe.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:tela_busca\\tela_detalhe\\formdetalhe.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\tela_detalhe\\formdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:tela_detalhe\\formdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\tela_busca\\tela_detalhe\\formdetalhe.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:tela_busca\\tela_detalhe\\formdetalhe.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\tela_detalhe\\formdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:tela_detalhe\\formdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\tela_busca\\tela_detalhe\\formdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:tela_busca\\tela_detalhe\\formdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\tela_busca\\tela_detalhe\\formdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:tela_busca\\tela_detalhe\\formdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\data\\pontoturisticorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:data\\pontoturisticorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\tela_busca\\formbusca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:tela_busca\\formbusca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\tela_busca\\formbusca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:tela_busca\\formbusca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\pontos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:pontos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\tela_busca\\formbusca.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:tela_busca\\formbusca.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\telabusca\\formbusca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:telabusca\\formbusca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\models\\pontoturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:models\\pontoturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\services\\pontoturisticoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:services\\pontoturisticoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gabri\\source\\repos\\bauru-s-tour\\bauru\u0027s tour\\telabusca\\formbusca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:telabusca\\formbusca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gabri\\source\\repos\\bauru-s-tour\\bauru\u0027s tour\\services\\favoritosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:services\\favoritosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 2a6820e1757a548f3c28773c9ddc2c59fb063c10
+      "AbsoluteMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|c:\\users\\gustavo fontanez\\documents\\github\\bauru-s-tour\\bauru-s-tour\\bauru\u0027s tour\\telainicial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92864A3-A0FF-BAD8-6273-0FA94EB9217C}|Baurus\u0027Thuor.csproj|solutionrelative:telainicial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,26 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 3,
-=======
-          "SelectedChildIndex": 4,
->>>>>>> 2a6820e1757a548f3c28773c9ddc2c59fb063c10
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FavoritosService.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\Bauru-s-Tour\\Bauru\u0027s Tour\\Services\\FavoritosService.cs",
-              "RelativeDocumentMoniker": "Services\\FavoritosService.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\Bauru-s-Tour\\Bauru\u0027s Tour\\Services\\FavoritosService.cs",
-              "RelativeToolTip": "Services\\FavoritosService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T22:44:24.561Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -96,168 +41,68 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-<<<<<<< HEAD
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormDetalhe.resx",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\Tela_Detalhe\\FormDetalhe.resx",
-              "RelativeDocumentMoniker": "Tela_Busca\\Tela_Detalhe\\FormDetalhe.resx",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\Tela_Detalhe\\FormDetalhe.resx",
-              "RelativeToolTip": "Tela_Busca\\Tela_Detalhe\\FormDetalhe.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-10-17T01:21:20.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormDetalhe.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\Tela_Detalhe\\FormDetalhe.Designer.cs",
-              "RelativeDocumentMoniker": "Tela_Busca\\Tela_Detalhe\\FormDetalhe.Designer.cs",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\Tela_Detalhe\\FormDetalhe.Designer.cs",
-              "RelativeToolTip": "Tela_Busca\\Tela_Detalhe\\FormDetalhe.Designer.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T01:21:20.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormDetalhe.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\Tela_Detalhe\\FormDetalhe.cs",
-              "RelativeDocumentMoniker": "Tela_Busca\\Tela_Detalhe\\FormDetalhe.cs",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\Tela_Detalhe\\FormDetalhe.cs [Design]",
-              "RelativeToolTip": "Tela_Busca\\Tela_Detalhe\\FormDetalhe.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T01:08:54.278Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "FormDetalhe.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\Tela_Detalhe\\FormDetalhe.cs",
-              "RelativeDocumentMoniker": "Tela_Busca\\Tela_Detalhe\\FormDetalhe.cs",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\Tela_Detalhe\\FormDetalhe.cs",
-              "RelativeToolTip": "Tela_Busca\\Tela_Detalhe\\FormDetalhe.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwAgAAAAdAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_detalhe\\FormDetalhe.cs",
+              "RelativeDocumentMoniker": "Tela_detalhe\\FormDetalhe.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_detalhe\\FormDetalhe.cs",
+              "RelativeToolTip": "Tela_detalhe\\FormDetalhe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T01:07:44.478Z",
+              "WhenOpened": "2026-10-22T23:20:23.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PontoTuristicoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Data\\PontoTuristicoRepository.cs",
-              "RelativeDocumentMoniker": "Data\\PontoTuristicoRepository.cs",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Data\\PontoTuristicoRepository.cs",
-              "RelativeToolTip": "Data\\PontoTuristicoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T19:19:03.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormBusca.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\FormBusca.cs",
-              "RelativeDocumentMoniker": "Tela_Busca\\FormBusca.cs",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\FormBusca.cs",
-              "RelativeToolTip": "Tela_Busca\\FormBusca.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAmwJ4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T19:10:00.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormBusca.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\FormBusca.cs",
-              "RelativeDocumentMoniker": "Tela_Busca\\FormBusca.cs",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\FormBusca.cs [Projeto]",
-              "RelativeToolTip": "Tela_Busca\\FormBusca.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T19:09:57.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAkwLEAAAA/AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\TelaInicial\\Program.cs",
+              "RelativeDocumentMoniker": "TelaInicial\\Program.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\TelaInicial\\Program.cs",
+              "RelativeToolTip": "TelaInicial\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-08T23:37:26.584Z"
+              "WhenOpened": "2026-10-28T22:48:32.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormBusca.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\FormBusca.Designer.cs",
-              "RelativeDocumentMoniker": "Tela_Busca\\FormBusca.Designer.cs",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_Busca\\FormBusca.Designer.cs",
-              "RelativeToolTip": "Tela_Busca\\FormBusca.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FormBusca.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\TelaBusca\\FormBusca.cs",
+              "RelativeDocumentMoniker": "TelaBusca\\FormBusca.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\TelaBusca\\FormBusca.cs [Projeto]",
+              "RelativeToolTip": "TelaBusca\\FormBusca.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T22:09:48.076Z"
+              "WhenOpened": "2026-10-28T22:46:06.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "pontos.json",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\pontos.json",
-              "RelativeDocumentMoniker": "pontos.json",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\pontos.json",
-              "RelativeToolTip": "pontos.json",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAwwL4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-16T19:19:35.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "PontoTuristico.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Models\\PontoTuristico.cs",
               "RelativeDocumentMoniker": "Models\\PontoTuristico.cs",
               "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Models\\PontoTuristico.cs",
               "RelativeToolTip": "Models\\PontoTuristico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T19:21:40.208Z"
+              "WhenOpened": "2026-10-28T22:45:57.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PontoTuristicoService.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Services\\PontoTuristicoService.cs",
-              "RelativeDocumentMoniker": "Services\\PontoTuristicoService.cs",
-              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Services\\PontoTuristicoService.cs",
-              "RelativeToolTip": "Services\\PontoTuristicoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T19:21:27.819Z"
-=======
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormBusca.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\Bauru-s-Tour\\Bauru\u0027s Tour\\TelaBusca\\FormBusca.cs",
-              "RelativeDocumentMoniker": "TelaBusca\\FormBusca.cs",
-              "ToolTip": "C:\\Users\\gabri\\source\\repos\\Bauru-s-Tour\\Bauru\u0027s Tour\\TelaBusca\\FormBusca.cs",
-              "RelativeToolTip": "TelaBusca\\FormBusca.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAcwGYAAAAAAAAAAAAAAA==",
+              "Title": "FormDetalhe.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_detalhe\\FormDetalhe.cs",
+              "RelativeDocumentMoniker": "Tela_detalhe\\FormDetalhe.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru\u0027s Tour\\Tela_detalhe\\FormDetalhe.cs [Projeto]",
+              "RelativeToolTip": "Tela_detalhe\\FormDetalhe.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T23:55:47.73Z",
-              "EditorCaption": ""
->>>>>>> 2a6820e1757a548f3c28773c9ddc2c59fb063c10
+              "WhenOpened": "2026-10-22T22:21:02.335Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

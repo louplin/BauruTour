@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\services\\favoritosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:services\\favoritosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\utilitarios\\tema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:utilitarios\\tema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\utilitarios\\desenho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:utilitarios\\desenho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\utilitarios\\controletelacheia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:utilitarios\\controletelacheia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\utilitarios\\carregadorimagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:utilitarios\\carregadorimagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\utilitarios\\abridorlinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:utilitarios\\abridorlinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\telabusca\\formbusca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:telabusca\\formbusca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\telacompartilhar\\formcompartilhar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:telacompartilhar\\formcompartilhar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\teladetalhe\\formdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:teladetalhe\\formdetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\telainicial\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:telainicial\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\telainicial\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:telainicial\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|c:\\users\\gustavo fontanez\\desktop\\feitooo\\telainicial\\forminicial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266B10F3-AE96-4BC3-1BF6-A16D8F263A6D}|BaurusTour.csproj|solutionrelative:telainicial\\forminicial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tema.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Utilitarios\\Tema.cs",
+              "RelativeDocumentMoniker": "Utilitarios\\Tema.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Utilitarios\\Tema.cs",
+              "RelativeToolTip": "Utilitarios\\Tema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:33:07.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Desenho.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Utilitarios\\Desenho.cs",
+              "RelativeDocumentMoniker": "Utilitarios\\Desenho.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Utilitarios\\Desenho.cs",
+              "RelativeToolTip": "Utilitarios\\Desenho.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:33:06.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ControleTelaCheia.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Utilitarios\\ControleTelaCheia.cs",
+              "RelativeDocumentMoniker": "Utilitarios\\ControleTelaCheia.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Utilitarios\\ControleTelaCheia.cs",
+              "RelativeToolTip": "Utilitarios\\ControleTelaCheia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:33:05.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarregadorImagens.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Utilitarios\\CarregadorImagens.cs",
+              "RelativeDocumentMoniker": "Utilitarios\\CarregadorImagens.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Utilitarios\\CarregadorImagens.cs",
+              "RelativeToolTip": "Utilitarios\\CarregadorImagens.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:33:04.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AbridorLinks.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Utilitarios\\AbridorLinks.cs",
+              "RelativeDocumentMoniker": "Utilitarios\\AbridorLinks.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Utilitarios\\AbridorLinks.cs",
+              "RelativeToolTip": "Utilitarios\\AbridorLinks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:33:03.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FavoritosService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Services\\FavoritosService.cs",
+              "RelativeDocumentMoniker": "Services\\FavoritosService.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\Services\\FavoritosService.cs",
+              "RelativeToolTip": "Services\\FavoritosService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:32:57.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormBusca.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaBusca\\FormBusca.cs",
+              "RelativeDocumentMoniker": "TelaBusca\\FormBusca.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaBusca\\FormBusca.cs [Projeto]",
+              "RelativeToolTip": "TelaBusca\\FormBusca.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:32:48.36Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormCompartilhar.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaCompartilhar\\FormCompartilhar.cs",
+              "RelativeDocumentMoniker": "TelaCompartilhar\\FormCompartilhar.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaCompartilhar\\FormCompartilhar.cs [Projeto]",
+              "RelativeToolTip": "TelaCompartilhar\\FormCompartilhar.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:32:35.604Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormDetalhe.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaDetalhe\\FormDetalhe.cs",
+              "RelativeDocumentMoniker": "TelaDetalhe\\FormDetalhe.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaDetalhe\\FormDetalhe.cs [Projeto]",
+              "RelativeToolTip": "TelaDetalhe\\FormDetalhe.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:31:51.976Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormInicial.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaInicial\\FormInicial.cs",
+              "RelativeDocumentMoniker": "TelaInicial\\FormInicial.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaInicial\\FormInicial.cs",
+              "RelativeToolTip": "TelaInicial\\FormInicial.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv0sAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:31:47.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormInicial.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaInicial\\FormInicial.cs",
+              "RelativeDocumentMoniker": "TelaInicial\\FormInicial.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaInicial\\FormInicial.cs [Projeto]",
+              "RelativeToolTip": "TelaInicial\\FormInicial.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:31:32.019Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormInicial.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaInicial\\FormInicial.Designer.cs",
+              "RelativeDocumentMoniker": "TelaInicial\\FormInicial.Designer.cs",
+              "ToolTip": "C:\\Users\\Gustavo Fontanez\\Desktop\\FEITOOO\\TelaInicial\\FormInicial.Designer.cs",
+              "RelativeToolTip": "TelaInicial\\FormInicial.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T00:31:28.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

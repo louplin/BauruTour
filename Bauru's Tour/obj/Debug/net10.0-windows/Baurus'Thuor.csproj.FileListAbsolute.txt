@@ -87,3 +87,4 @@ C:\Users\Gustavo Fontanez\Documents\GitHub\Bauru-s-Tour\Bauru-s-Tour\Bauru's Tou
 =======
 C:\Users\gabri\source\repos\Bauru-s-Tour\Bauru's Tour\obj\Debug\net10.0-windows\BauruTour.FormBusca.resources
 >>>>>>> 2a6820e1757a548f3c28773c9ddc2c59fb063c10
+C:\Users\Gustavo Fontanez\Documents\GitHub\Bauru-s-Tour\Bauru-s-Tour\Bauru's Tour\obj\Debug\net10.0-windows\BauruTour.FormBusca.resources

@@ -1,4 +1,4 @@
-﻿using BauruThur.Models;
+﻿using BauruTuor.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -15,6 +15,7 @@ namespace Baurus_Thuor.Tela_Busca.Tela_Detalhes
         // Posições originais dos controles e a área que o conjunto ocupa
         readonly Dictionary<Control, Point> posOriginal = new Dictionary<Control, Point>();
         Rectangle areaConteudo;
+        private bool favoritado = false;    
 
         // Usado só pelo Designer do Visual Studio
         public FormDetalhe()
@@ -109,5 +110,16 @@ namespace Baurus_Thuor.Tela_Busca.Tela_Detalhes
         private void picFoto_Click(object sender, EventArgs e) { }
         private void lblEndereco_Click(object sender, EventArgs e) { }
         private void lblDescricao_Click(object sender, EventArgs e) { }
+
+        private void bntFavorito_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblFavorito_Click(object sender, EventArgs e)
+        {
+            favoritado = !favoritado;
+            lblFavorito.Text = favoritado ? "♥" : "♡";
+        }
     }
 }
