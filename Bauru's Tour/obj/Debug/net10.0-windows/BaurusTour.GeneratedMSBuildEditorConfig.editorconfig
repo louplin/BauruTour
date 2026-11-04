@@ -17,7 +17,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BaurusTour
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Gustavo Fontanez\Documents\GitHub\Bauru-s-Tour\Bauru-s-Tour\Bauru's Tour\
+=======
+build_property.ProjectDir = C:\Users\Gustavo Fontanez\Desktop\Parte 2\
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

@@ -29,6 +29,10 @@ namespace BaurusTour.TelaBusca
         private void InitializeComponent()
         {
             pnlMenu = new Panel();
+<<<<<<< HEAD
+=======
+            btnTelaCheia = new Button();
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             btnSobre = new Button();
             btnFavoritos = new Button();
             btnMapa = new Button();
@@ -41,6 +45,10 @@ namespace BaurusTour.TelaBusca
             pnlSobre = new Panel();
             pnlCaixaSobre = new Panel();
             lblAtalhos = new Label();
+<<<<<<< HEAD
+=======
+            btnGuia = new Button();
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             lblEquipe = new Label();
             lblSobreTexto = new Label();
             lblSobreTitulo = new Label();
@@ -79,6 +87,10 @@ namespace BaurusTour.TelaBusca
             // pnlMenu
             //
             pnlMenu.BackColor = Color.White;
+<<<<<<< HEAD
+=======
+            pnlMenu.Controls.Add(btnTelaCheia);
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             pnlMenu.Controls.Add(btnSobre);
             pnlMenu.Controls.Add(btnFavoritos);
             pnlMenu.Controls.Add(btnMapa);
@@ -90,6 +102,31 @@ namespace BaurusTour.TelaBusca
             pnlMenu.Size = new Size(220, 800);
             pnlMenu.TabIndex = 0;
             //
+<<<<<<< HEAD
+=======
+            // btnTelaCheia
+            //
+            btnTelaCheia.BackColor = Color.White;
+            btnTelaCheia.Cursor = Cursors.Hand;
+            btnTelaCheia.FlatAppearance.BorderSize = 0;
+            btnTelaCheia.FlatAppearance.MouseOverBackColor = Color.FromArgb(240, 244, 246);
+            btnTelaCheia.FlatStyle = FlatStyle.Flat;
+            btnTelaCheia.Font = new Font("Segoe UI", 12F);
+            btnTelaCheia.ForeColor = Color.FromArgb(13, 43, 94);
+            btnTelaCheia.Image = Properties.Resources.icone_tela_cheia;
+            btnTelaCheia.ImageAlign = ContentAlignment.MiddleLeft;
+            btnTelaCheia.Location = new Point(14, 290);
+            btnTelaCheia.Name = "btnTelaCheia";
+            btnTelaCheia.Padding = new Padding(12, 0, 0, 0);
+            btnTelaCheia.Size = new Size(192, 50);
+            btnTelaCheia.TabIndex = 4;
+            btnTelaCheia.Text = "Tela cheia";
+            btnTelaCheia.TextAlign = ContentAlignment.MiddleLeft;
+            btnTelaCheia.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnTelaCheia.UseVisualStyleBackColor = false;
+            btnTelaCheia.Click += btnTelaCheia_Click;
+            //
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             // btnSobre
             //
             btnSobre.BackColor = Color.White;
@@ -250,12 +287,20 @@ namespace BaurusTour.TelaBusca
             pnlCaixaSobre.BackColor = Color.White;
             pnlCaixaSobre.BorderStyle = BorderStyle.FixedSingle;
             pnlCaixaSobre.Controls.Add(lblAtalhos);
+<<<<<<< HEAD
+=======
+            pnlCaixaSobre.Controls.Add(btnGuia);
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             pnlCaixaSobre.Controls.Add(lblEquipe);
             pnlCaixaSobre.Controls.Add(lblSobreTexto);
             pnlCaixaSobre.Controls.Add(lblSobreTitulo);
             pnlCaixaSobre.Location = new Point(48, 8);
             pnlCaixaSobre.Name = "pnlCaixaSobre";
+<<<<<<< HEAD
             pnlCaixaSobre.Size = new Size(860, 360);
+=======
+            pnlCaixaSobre.Size = new Size(860, 428);
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             pnlCaixaSobre.TabIndex = 0;
             //
             // lblAtalhos
@@ -263,12 +308,38 @@ namespace BaurusTour.TelaBusca
             lblAtalhos.AutoSize = true;
             lblAtalhos.Font = new Font("Segoe UI", 9.75F);
             lblAtalhos.ForeColor = Color.FromArgb(88, 98, 112);
+<<<<<<< HEAD
             lblAtalhos.Location = new Point(34, 318);
+=======
+            lblAtalhos.Location = new Point(34, 386);
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             lblAtalhos.Name = "lblAtalhos";
             lblAtalhos.Size = new Size(380, 17);
             lblAtalhos.TabIndex = 4;
             lblAtalhos.Text = "Atalhos:  F11 = tela cheia   |   Esc = sair da tela cheia";
             //
+<<<<<<< HEAD
+=======
+            // btnGuia
+            //
+            btnGuia.BackColor = Color.FromArgb(11, 107, 138);
+            btnGuia.Cursor = Cursors.Hand;
+            btnGuia.FlatAppearance.BorderSize = 0;
+            btnGuia.FlatAppearance.MouseOverBackColor = Color.FromArgb(7, 84, 110);
+            btnGuia.FlatStyle = FlatStyle.Flat;
+            btnGuia.Font = new Font("Segoe UI Semibold", 11F);
+            btnGuia.ForeColor = Color.White;
+            btnGuia.Image = Properties.Resources.icone_documento_branco;
+            btnGuia.Location = new Point(32, 318);
+            btnGuia.Name = "btnGuia";
+            btnGuia.Size = new Size(270, 50);
+            btnGuia.TabIndex = 3;
+            btnGuia.Text = "Abrir guia de uso (PDF)";
+            btnGuia.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnGuia.UseVisualStyleBackColor = false;
+            btnGuia.Click += btnGuia_Click;
+            //
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             // lblEquipe
             //
             lblEquipe.Font = new Font("Segoe UI Semibold", 10.5F);
@@ -603,6 +674,10 @@ namespace BaurusTour.TelaBusca
         private Button btnMapa;
         private Button btnFavoritos;
         private Button btnSobre;
+<<<<<<< HEAD
+=======
+        private Button btnTelaCheia;
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
         private PictureBox picIlustracaoMenu;
         private Panel pnlLinhaMenu;
         private Panel pnlConteudo;
@@ -631,6 +706,10 @@ namespace BaurusTour.TelaBusca
         private Label lblSobreTitulo;
         private Label lblSobreTexto;
         private Label lblEquipe;
+<<<<<<< HEAD
+=======
+        private Button btnGuia;
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
         private Label lblAtalhos;
     }
 }

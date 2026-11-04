@@ -13,11 +13,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru's Tour\\BaurusTour.csproj",
       "projectName": "BaurusTour",
       "projectPath": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru's Tour\\BaurusTour.csproj",
+=======
+      "projectUniqueName": "C:\\Users\\Gustavo Fontanez\\Desktop\\Parte 2\\BaurusTour.csproj",
+      "projectName": "BaurusTour",
+      "projectPath": "C:\\Users\\Gustavo Fontanez\\Desktop\\Parte 2\\BaurusTour.csproj",
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
       "packagesPath": "C:\\Users\\Gustavo Fontanez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru's Tour\\obj\\",
+      "outputPath": "C:\\Users\\Gustavo Fontanez\\Desktop\\Parte 2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gustavo Fontanez\\AppData\\Roaming\\NuGet\\NuGet.Config",

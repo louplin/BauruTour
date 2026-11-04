@@ -172,6 +172,15 @@ namespace BaurusTour.TelaBusca
             Process.Start(new ProcessStartInfo(link) { UseShellExecute = true });
         }
 
+<<<<<<< HEAD
+=======
+        private void btnGuia_Click(object? sender, EventArgs e)
+        {
+            string pdf = Path.Combine(AppContext.BaseDirectory, "Manual", "Guia-de-uso-Bauru-Tour.pdf");
+            Process.Start(new ProcessStartInfo(pdf) { UseShellExecute = true });
+        }
+
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
         /// <summary>true = mostra a lista de cards. false = mostra a aba Sobre.</summary>
         private void MostrarLista(bool mostrar)
         {
@@ -191,8 +200,18 @@ namespace BaurusTour.TelaBusca
         }
 
         // ================================================================
+<<<<<<< HEAD
         // Tela cheia (tecla F11)
         // ================================================================
+=======
+        // Tela cheia (botão do menu ou tecla F11)
+        // ================================================================
+        private void btnTelaCheia_Click(object? sender, EventArgs e)
+        {
+            AlternarTelaCheia();
+        }
+
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
         private void AlternarTelaCheia()
         {
             if (FormBorderStyle == FormBorderStyle.None)
@@ -200,6 +219,10 @@ namespace BaurusTour.TelaBusca
                 // Volta para janela normal
                 FormBorderStyle = FormBorderStyle.Sizable;
                 WindowState = FormWindowState.Maximized;
+<<<<<<< HEAD
+=======
+                btnTelaCheia.Text = "Tela cheia";
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             }
             else
             {
@@ -207,6 +230,10 @@ namespace BaurusTour.TelaBusca
                 WindowState = FormWindowState.Normal;
                 FormBorderStyle = FormBorderStyle.None;
                 WindowState = FormWindowState.Maximized;
+<<<<<<< HEAD
+=======
+                btnTelaCheia.Text = "Sair da tela cheia";
+>>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             }
         }
 
