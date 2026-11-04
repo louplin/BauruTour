@@ -10,6 +10,9 @@
     <Compile Update="TelaDetalhe\FormDetalhe.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="TelaSobre\FormSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="TelaCompartilhar\FormCompartilhar.cs">
       <SubType>Form</SubType>
     </Compile>

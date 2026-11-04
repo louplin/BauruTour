@@ -4,6 +4,7 @@ using BaurusTour.Data;
 using BaurusTour.Models;
 using BaurusTour.Services;
 using BaurusTour.TelaDetalhe;
+using BaurusTour.TelaSobre;
 
 namespace BaurusTour.TelaBusca
 {
@@ -148,22 +149,25 @@ namespace BaurusTour.TelaBusca
         {
             mostrandoFavoritos = false;
             lblTituloSecao.Text = "Explore Bauru";
-            MostrarLista(true);
             DestacarMenu(btnInicio);
+            AtualizarLista();
         }
 
         private void btnFavoritos_Click(object? sender, EventArgs e)
         {
             mostrandoFavoritos = true;
             lblTituloSecao.Text = "Meus favoritos";
-            MostrarLista(true);
             DestacarMenu(btnFavoritos);
+            AtualizarLista();
         }
 
+        // Abre a tela Sobre (TelaSobre/FormSobre.cs)
         private void btnSobre_Click(object? sender, EventArgs e)
         {
-            MostrarLista(false);
-            DestacarMenu(btnSobre);
+            using (var telaSobre = new FormSobre())
+            {
+                telaSobre.ShowDialog(this);
+            }
         }
 
         private void btnMapa_Click(object? sender, EventArgs e)
@@ -172,46 +176,17 @@ namespace BaurusTour.TelaBusca
             Process.Start(new ProcessStartInfo(link) { UseShellExecute = true });
         }
 
-<<<<<<< HEAD
-=======
-        private void btnGuia_Click(object? sender, EventArgs e)
-        {
-            string pdf = Path.Combine(AppContext.BaseDirectory, "Manual", "Guia-de-uso-Bauru-Tour.pdf");
-            Process.Start(new ProcessStartInfo(pdf) { UseShellExecute = true });
-        }
-
->>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
-        /// <summary>true = mostra a lista de cards. false = mostra a aba Sobre.</summary>
-        private void MostrarLista(bool mostrar)
-        {
-            flpCards.Visible = mostrar;
-            pnlTituloSecao.Visible = mostrar;
-            pnlSobre.Visible = !mostrar;
-            AtualizarLista();
-        }
-
         /// <summary>Pinta de azul claro o botão do menu que está aberto.</summary>
         private void DestacarMenu(Button selecionado)
         {
             btnInicio.BackColor = Color.White;
             btnFavoritos.BackColor = Color.White;
-            btnSobre.BackColor = Color.White;
             selecionado.BackColor = corMenuSelecionado;
         }
 
         // ================================================================
-<<<<<<< HEAD
         // Tela cheia (tecla F11)
         // ================================================================
-=======
-        // Tela cheia (botão do menu ou tecla F11)
-        // ================================================================
-        private void btnTelaCheia_Click(object? sender, EventArgs e)
-        {
-            AlternarTelaCheia();
-        }
-
->>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
         private void AlternarTelaCheia()
         {
             if (FormBorderStyle == FormBorderStyle.None)
@@ -219,10 +194,6 @@ namespace BaurusTour.TelaBusca
                 // Volta para janela normal
                 FormBorderStyle = FormBorderStyle.Sizable;
                 WindowState = FormWindowState.Maximized;
-<<<<<<< HEAD
-=======
-                btnTelaCheia.Text = "Tela cheia";
->>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             }
             else
             {
@@ -230,10 +201,6 @@ namespace BaurusTour.TelaBusca
                 WindowState = FormWindowState.Normal;
                 FormBorderStyle = FormBorderStyle.None;
                 WindowState = FormWindowState.Maximized;
-<<<<<<< HEAD
-=======
-                btnTelaCheia.Text = "Sair da tela cheia";
->>>>>>> cad8a65433232b9e8670d9532659520233dfa11c
             }
         }
 
