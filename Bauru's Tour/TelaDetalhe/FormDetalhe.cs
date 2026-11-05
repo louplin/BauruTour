@@ -1,34 +1,29 @@
 using System.Diagnostics;
+using BaurusTour.Classes;
 using BaurusTour.Models;
-using BaurusTour.Services;
 using BaurusTour.TelaCompartilhar;
 
 namespace BaurusTour.TelaDetalhe
 {
-    /// <summary>
-    /// Tela de detalhes de um ponto turístico.
-    /// O visual está todo no Designer (FormDetalhe.Designer.cs).
-    /// Aqui só colocamos os dados do ponto e o que cada botão faz.
-    /// </summary>
+    // Tela com os detalhes de um ponto turístico
     public partial class FormDetalhe : Form
     {
-        private readonly PontoTuristico? ponto;
-        private readonly FavoritosService? favoritos;
+        private PontoTuristico? ponto;
+        private GerenciadorFavoritos? favoritos;
 
-        // Usado só pelo Designer do Visual Studio
+        // O Designer do Visual Studio precisa de um construtor sem parâmetros
         public FormDetalhe()
         {
             InitializeComponent();
         }
 
-        // Usado pela tela de busca: recebe o ponto que foi clicado
-        public FormDetalhe(PontoTuristico ponto, FavoritosService favoritos) : this()
+        // Construtor usado pela tela de busca, recebe o ponto que foi clicado
+        public FormDetalhe(PontoTuristico ponto, GerenciadorFavoritos favoritos) : this()
         {
             this.ponto = ponto;
             this.favoritos = favoritos;
         }
 
-        // Ao abrir: coloca os dados do ponto nos labels e na foto
         private void FormDetalhe_Load(object? sender, EventArgs e)
         {
             if (ponto == null)
@@ -39,17 +34,18 @@ namespace BaurusTour.TelaDetalhe
             lblNome.Text = ponto.Nome;
             lblEndereco.Text = ponto.Endereco;
             lblDescricao.Text = ponto.Descricao;
-            picFoto.Image = FotoService.FotoDoPonto(ponto);
+            picFoto.Image = GerenciadorFotos.FotoDoPonto(ponto);
+
+            // sem link, não tem como abrir o mapa nem compartilhar
+            if (ponto.LinkMaps == "")
+            {
+                btnMapa.Enabled = false;
+                btnCompartilhar.Enabled = false;
+            }
 
             AtualizarBotaoFavoritar();
-
-            if (FormBorderStyle == FormBorderStyle.None)
-                btnTelaCheia.Text = "Sair da tela cheia";
         }
 
-        // ================================================================
-        // Botões
-        // ================================================================
         private void btnVoltar_Click(object? sender, EventArgs e)
         {
             Close();
@@ -57,10 +53,18 @@ namespace BaurusTour.TelaDetalhe
 
         private void btnMapa_Click(object? sender, EventArgs e)
         {
-            if (ponto == null)
+            if (ponto == null || ponto.LinkMaps == "")
                 return;
 
-            Process.Start(new ProcessStartInfo(ponto.LinkMaps) { UseShellExecute = true });
+            try
+            {
+                Process.Start(new ProcessStartInfo(ponto.LinkMaps) { UseShellExecute = true });
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Não foi possível abrir o mapa.", "Bauru's Tour",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void btnCompartilhar_Click(object? sender, EventArgs e)
@@ -68,7 +72,7 @@ namespace BaurusTour.TelaDetalhe
             if (ponto == null)
                 return;
 
-            using (var telaCompartilhar = new FormCompartilhar(ponto))
+            using (FormCompartilhar telaCompartilhar = new FormCompartilhar(ponto))
             {
                 telaCompartilhar.ShowDialog(this);
             }
@@ -83,48 +87,42 @@ namespace BaurusTour.TelaDetalhe
             AtualizarBotaoFavoritar();
         }
 
-        /// <summary>Botão vermelho cheio quando é favorito, só com borda quando não é.</summary>
+        // Favorito: botão vermelho. Não favorito: botão branco com letra vermelha.
         private void AtualizarBotaoFavoritar()
         {
             if (ponto == null || favoritos == null)
                 return;
 
+            Color vermelho = Color.FromArgb(226, 72, 80);
+
             if (favoritos.EhFavorito(ponto.Id))
             {
                 btnFavoritar.Text = "♥  Favoritado";
-                btnFavoritar.BackColor = Color.FromArgb(226, 72, 80);
+                btnFavoritar.BackColor = vermelho;
                 btnFavoritar.ForeColor = Color.White;
             }
             else
             {
                 btnFavoritar.Text = "♡  Favoritar";
                 btnFavoritar.BackColor = Color.White;
-                btnFavoritar.ForeColor = Color.FromArgb(226, 72, 80);
+                btnFavoritar.ForeColor = vermelho;
             }
         }
 
-        // ================================================================
-        // Tela cheia (botão ou F11) e tecla Esc
-        // ================================================================
-        private void btnTelaCheia_Click(object? sender, EventArgs e)
-        {
-            AlternarTelaCheia();
-        }
-
+        // F11 liga/desliga a tela cheia
         private void AlternarTelaCheia()
         {
             if (FormBorderStyle == FormBorderStyle.None)
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 WindowState = FormWindowState.Maximized;
-                btnTelaCheia.Text = "Tela cheia";
             }
             else
             {
+                // volta pra Normal antes, senão a barra de tarefas continua aparecendo
                 WindowState = FormWindowState.Normal;
                 FormBorderStyle = FormBorderStyle.None;
                 WindowState = FormWindowState.Maximized;
-                btnTelaCheia.Text = "Sair da tela cheia";
             }
         }
 
@@ -133,7 +131,7 @@ namespace BaurusTour.TelaDetalhe
             if (e.KeyCode == Keys.F11)
                 AlternarTelaCheia();
 
-            // Esc: sai da tela cheia; se já estiver em janela, volta para a busca
+            // Esc sai da tela cheia, ou volta pra busca se não estiver em tela cheia
             if (e.KeyCode == Keys.Escape)
             {
                 if (FormBorderStyle == FormBorderStyle.None)

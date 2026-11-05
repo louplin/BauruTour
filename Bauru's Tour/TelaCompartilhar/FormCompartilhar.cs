@@ -3,16 +3,12 @@ using BaurusTour.Models;
 
 namespace BaurusTour.TelaCompartilhar
 {
-    /// <summary>
-    /// Janela de compartilhar: copia o link do Google Maps (ou uma mensagem pronta)
-    /// para colar no WhatsApp, ou já abre o WhatsApp com a mensagem escrita.
-    /// O visual está no Designer (FormCompartilhar.Designer.cs).
-    /// </summary>
+    // Janela para copiar o link/mensagem ou abrir o WhatsApp com a mensagem pronta
     public partial class FormCompartilhar : Form
     {
-        private readonly PontoTuristico? ponto;
+        private PontoTuristico? ponto;
 
-        // Usado só pelo Designer do Visual Studio
+        // O Designer do Visual Studio precisa de um construtor sem parâmetros
         public FormCompartilhar()
         {
             InitializeComponent();
@@ -23,7 +19,6 @@ namespace BaurusTour.TelaCompartilhar
             this.ponto = ponto;
         }
 
-        // Ao abrir: preenche o link e monta a mensagem
         private void FormCompartilhar_Load(object? sender, EventArgs e)
         {
             if (ponto == null)
@@ -38,6 +33,10 @@ namespace BaurusTour.TelaCompartilhar
 
         private void btnCopiarLink_Click(object? sender, EventArgs e)
         {
+            // Clipboard.SetText dá erro se o texto estiver vazio
+            if (txtLink.Text == "")
+                return;
+
             Clipboard.SetText(txtLink.Text);
             lblConfirmacao.Text = "Link copiado! Agora é só colar no WhatsApp (Ctrl + V).";
             lblConfirmacao.Visible = true;
@@ -45,19 +44,31 @@ namespace BaurusTour.TelaCompartilhar
 
         private void btnCopiarMensagem_Click(object? sender, EventArgs e)
         {
+            if (txtMensagem.Text == "")
+                return;
+
             Clipboard.SetText(txtMensagem.Text);
             lblConfirmacao.Text = "Mensagem copiada! Agora é só colar no WhatsApp (Ctrl + V).";
             lblConfirmacao.Visible = true;
         }
 
-        // Abre o WhatsApp (aplicativo ou WhatsApp Web) com a mensagem já escrita
+        // Abre o WhatsApp (app ou WhatsApp Web) com a mensagem já escrita.
+        // EscapeDataString troca espaços e acentos por códigos que funcionam num link.
         private void btnWhatsApp_Click(object? sender, EventArgs e)
         {
             string link = "https://wa.me/?text=" + Uri.EscapeDataString(txtMensagem.Text);
-            Process.Start(new ProcessStartInfo(link) { UseShellExecute = true });
+
+            try
+            {
+                Process.Start(new ProcessStartInfo(link) { UseShellExecute = true });
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Não foi possível abrir o WhatsApp.", "Bauru's Tour",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
-        // Esc fecha a janela
         private void FormCompartilhar_KeyDown(object? sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Escape)

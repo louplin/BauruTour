@@ -29,7 +29,6 @@ namespace BaurusTour.TelaBusca
         private void InitializeComponent()
         {
             pnlMenu = new Panel();
-            btnTelaCheia = new Button();
             btnSobre = new Button();
             btnFavoritos = new Button();
             btnMapa = new Button();
@@ -39,13 +38,6 @@ namespace BaurusTour.TelaBusca
             pnlConteudo = new Panel();
             flpCards = new FlowLayoutPanel();
             lblNenhumResultado = new Label();
-            pnlSobre = new Panel();
-            pnlCaixaSobre = new Panel();
-            lblAtalhos = new Label();
-            btnGuia = new Button();
-            lblEquipe = new Label();
-            lblSobreTexto = new Label();
-            lblSobreTitulo = new Label();
             pnlTituloSecao = new Panel();
             btnVerTodos = new Button();
             lblQuantidade = new Label();
@@ -68,8 +60,6 @@ namespace BaurusTour.TelaBusca
             ((System.ComponentModel.ISupportInitialize)picIlustracaoMenu).BeginInit();
             pnlConteudo.SuspendLayout();
             flpCards.SuspendLayout();
-            pnlSobre.SuspendLayout();
-            pnlCaixaSobre.SuspendLayout();
             pnlTituloSecao.SuspendLayout();
             pnlCabecalho.SuspendLayout();
             flpCategorias.SuspendLayout();
@@ -81,7 +71,6 @@ namespace BaurusTour.TelaBusca
             // pnlMenu
             //
             pnlMenu.BackColor = Color.White;
-            pnlMenu.Controls.Add(btnTelaCheia);
             pnlMenu.Controls.Add(btnSobre);
             pnlMenu.Controls.Add(btnFavoritos);
             pnlMenu.Controls.Add(btnMapa);
@@ -92,28 +81,6 @@ namespace BaurusTour.TelaBusca
             pnlMenu.Name = "pnlMenu";
             pnlMenu.Size = new Size(220, 800);
             pnlMenu.TabIndex = 0;
-            //
-            // btnTelaCheia
-            //
-            btnTelaCheia.BackColor = Color.White;
-            btnTelaCheia.Cursor = Cursors.Hand;
-            btnTelaCheia.FlatAppearance.BorderSize = 0;
-            btnTelaCheia.FlatAppearance.MouseOverBackColor = Color.FromArgb(240, 244, 246);
-            btnTelaCheia.FlatStyle = FlatStyle.Flat;
-            btnTelaCheia.Font = new Font("Segoe UI", 12F);
-            btnTelaCheia.ForeColor = Color.FromArgb(13, 43, 94);
-            btnTelaCheia.Image = Properties.Resources.icone_tela_cheia;
-            btnTelaCheia.ImageAlign = ContentAlignment.MiddleLeft;
-            btnTelaCheia.Location = new Point(14, 290);
-            btnTelaCheia.Name = "btnTelaCheia";
-            btnTelaCheia.Padding = new Padding(12, 0, 0, 0);
-            btnTelaCheia.Size = new Size(192, 50);
-            btnTelaCheia.TabIndex = 4;
-            btnTelaCheia.Text = "Tela cheia";
-            btnTelaCheia.TextAlign = ContentAlignment.MiddleLeft;
-            btnTelaCheia.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnTelaCheia.UseVisualStyleBackColor = false;
-            btnTelaCheia.Click += btnTelaCheia_Click;
             //
             // btnSobre
             //
@@ -227,7 +194,6 @@ namespace BaurusTour.TelaBusca
             //
             pnlConteudo.BackColor = Color.FromArgb(247, 248, 246);
             pnlConteudo.Controls.Add(flpCards);
-            pnlConteudo.Controls.Add(pnlSobre);
             pnlConteudo.Controls.Add(pnlTituloSecao);
             pnlConteudo.Controls.Add(pnlCabecalho);
             pnlConteudo.Dock = DockStyle.Fill;
@@ -258,92 +224,6 @@ namespace BaurusTour.TelaBusca
             lblNenhumResultado.TabIndex = 0;
             lblNenhumResultado.Text = "Nenhum lugar encontrado. Tente outra palavra ou outra categoria.";
             lblNenhumResultado.Visible = false;
-            //
-            // pnlSobre
-            //
-            pnlSobre.AutoScroll = true;
-            pnlSobre.Controls.Add(pnlCaixaSobre);
-            pnlSobre.Dock = DockStyle.Fill;
-            pnlSobre.Location = new Point(0, 382);
-            pnlSobre.Name = "pnlSobre";
-            pnlSobre.Size = new Size(1059, 418);
-            pnlSobre.TabIndex = 3;
-            pnlSobre.Visible = false;
-            //
-            // pnlCaixaSobre
-            //
-            pnlCaixaSobre.BackColor = Color.White;
-            pnlCaixaSobre.BorderStyle = BorderStyle.FixedSingle;
-            pnlCaixaSobre.Controls.Add(lblAtalhos);
-            pnlCaixaSobre.Controls.Add(btnGuia);
-            pnlCaixaSobre.Controls.Add(lblEquipe);
-            pnlCaixaSobre.Controls.Add(lblSobreTexto);
-            pnlCaixaSobre.Controls.Add(lblSobreTitulo);
-            pnlCaixaSobre.Location = new Point(48, 8);
-            pnlCaixaSobre.Name = "pnlCaixaSobre";
-            pnlCaixaSobre.Size = new Size(860, 428);
-            pnlCaixaSobre.TabIndex = 0;
-            //
-            // lblAtalhos
-            //
-            lblAtalhos.AutoSize = true;
-            lblAtalhos.Font = new Font("Segoe UI", 9.75F);
-            lblAtalhos.ForeColor = Color.FromArgb(88, 98, 112);
-            lblAtalhos.Location = new Point(34, 386);
-            lblAtalhos.Name = "lblAtalhos";
-            lblAtalhos.Size = new Size(380, 17);
-            lblAtalhos.TabIndex = 4;
-            lblAtalhos.Text = "Atalhos:  F11 = tela cheia   |   Esc = sair da tela cheia";
-            //
-            // btnGuia
-            //
-            btnGuia.BackColor = Color.FromArgb(11, 107, 138);
-            btnGuia.Cursor = Cursors.Hand;
-            btnGuia.FlatAppearance.BorderSize = 0;
-            btnGuia.FlatAppearance.MouseOverBackColor = Color.FromArgb(7, 84, 110);
-            btnGuia.FlatStyle = FlatStyle.Flat;
-            btnGuia.Font = new Font("Segoe UI Semibold", 11F);
-            btnGuia.ForeColor = Color.White;
-            btnGuia.Image = Properties.Resources.icone_documento_branco;
-            btnGuia.Location = new Point(32, 318);
-            btnGuia.Name = "btnGuia";
-            btnGuia.Size = new Size(270, 50);
-            btnGuia.TabIndex = 3;
-            btnGuia.Text = "Abrir guia de uso (PDF)";
-            btnGuia.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnGuia.UseVisualStyleBackColor = false;
-            btnGuia.Click += btnGuia_Click;
-            //
-            // lblEquipe
-            //
-            lblEquipe.Font = new Font("Segoe UI Semibold", 10.5F);
-            lblEquipe.ForeColor = Color.FromArgb(13, 43, 94);
-            lblEquipe.Location = new Point(34, 278);
-            lblEquipe.Name = "lblEquipe";
-            lblEquipe.Size = new Size(790, 24);
-            lblEquipe.TabIndex = 2;
-            lblEquipe.Text = "Desenvolvido por: Olavo Faustino e equipe";
-            //
-            // lblSobreTexto
-            //
-            lblSobreTexto.Font = new Font("Segoe UI", 11F);
-            lblSobreTexto.ForeColor = Color.FromArgb(40, 48, 60);
-            lblSobreTexto.Location = new Point(34, 82);
-            lblSobreTexto.Name = "lblSobreTexto";
-            lblSobreTexto.Size = new Size(790, 186);
-            lblSobreTexto.TabIndex = 1;
-            lblSobreTexto.Text = "O Bauru's Tour é um guia dos pontos turísticos de Bauru (SP), feito em C# com Windows Forms como trabalho da faculdade.\r\n\r\nNo app dá pra buscar um lugar pelo nome, filtrar por categoria, ver os detalhes de cada ponto, abrir a localização no Google Maps, mandar o link pelo WhatsApp e guardar os seus favoritos.\r\n\r\nOs lugares ficam no arquivo pontos.json e os favoritos são salvos no próprio computador, então continuam lá quando você abre o app de novo.";
-            //
-            // lblSobreTitulo
-            //
-            lblSobreTitulo.AutoSize = true;
-            lblSobreTitulo.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            lblSobreTitulo.ForeColor = Color.FromArgb(13, 43, 94);
-            lblSobreTitulo.Location = new Point(30, 28);
-            lblSobreTitulo.Name = "lblSobreTitulo";
-            lblSobreTitulo.Size = new Size(285, 37);
-            lblSobreTitulo.TabIndex = 0;
-            lblSobreTitulo.Text = "Sobre o Bauru's Tour";
             //
             // pnlTituloSecao
             //
@@ -626,9 +506,6 @@ namespace BaurusTour.TelaBusca
             ((System.ComponentModel.ISupportInitialize)picIlustracaoMenu).EndInit();
             pnlConteudo.ResumeLayout(false);
             flpCards.ResumeLayout(false);
-            pnlSobre.ResumeLayout(false);
-            pnlCaixaSobre.ResumeLayout(false);
-            pnlCaixaSobre.PerformLayout();
             pnlTituloSecao.ResumeLayout(false);
             pnlTituloSecao.PerformLayout();
             pnlCabecalho.ResumeLayout(false);
@@ -648,7 +525,6 @@ namespace BaurusTour.TelaBusca
         private Button btnMapa;
         private Button btnFavoritos;
         private Button btnSobre;
-        private Button btnTelaCheia;
         private PictureBox picIlustracaoMenu;
         private Panel pnlLinhaMenu;
         private Panel pnlConteudo;
@@ -672,12 +548,5 @@ namespace BaurusTour.TelaBusca
         private Button btnVerTodos;
         private FlowLayoutPanel flpCards;
         private Label lblNenhumResultado;
-        private Panel pnlSobre;
-        private Panel pnlCaixaSobre;
-        private Label lblSobreTitulo;
-        private Label lblSobreTexto;
-        private Label lblEquipe;
-        private Button btnGuia;
-        private Label lblAtalhos;
     }
 }

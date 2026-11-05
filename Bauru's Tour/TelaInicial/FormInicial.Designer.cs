@@ -33,8 +33,6 @@ namespace BaurusTour.TelaInicial
             pnlLinhaDourada = new Panel();
             lblSubtitulo = new Label();
             btnComecar = new Button();
-            btnGuia = new Button();
-            btnTelaCheia = new Button();
             lblAtalhos = new Label();
             SuspendLayout();
             //
@@ -107,46 +105,6 @@ namespace BaurusTour.TelaInicial
             btnComecar.UseVisualStyleBackColor = false;
             btnComecar.Click += btnComecar_Click;
             //
-            // btnGuia
-            //
-            btnGuia.Anchor = AnchorStyles.None;
-            btnGuia.BackColor = Color.FromArgb(10, 18, 34);
-            btnGuia.Cursor = Cursors.Hand;
-            btnGuia.FlatAppearance.BorderColor = Color.FromArgb(90, 110, 140);
-            btnGuia.FlatAppearance.MouseOverBackColor = Color.FromArgb(24, 36, 64);
-            btnGuia.FlatStyle = FlatStyle.Flat;
-            btnGuia.Font = new Font("Segoe UI", 11F);
-            btnGuia.ForeColor = Color.FromArgb(200, 208, 222);
-            btnGuia.Image = Properties.Resources.icone_documento_claro;
-            btnGuia.Location = new Point(480, 372);
-            btnGuia.Name = "btnGuia";
-            btnGuia.Size = new Size(320, 44);
-            btnGuia.TabIndex = 5;
-            btnGuia.Text = "Como usar o app (guia em PDF)";
-            btnGuia.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnGuia.UseVisualStyleBackColor = false;
-            btnGuia.Click += btnGuia_Click;
-            //
-            // btnTelaCheia
-            //
-            btnTelaCheia.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnTelaCheia.BackColor = Color.FromArgb(10, 18, 34);
-            btnTelaCheia.Cursor = Cursors.Hand;
-            btnTelaCheia.FlatAppearance.BorderColor = Color.FromArgb(60, 75, 100);
-            btnTelaCheia.FlatAppearance.MouseOverBackColor = Color.FromArgb(24, 36, 64);
-            btnTelaCheia.FlatStyle = FlatStyle.Flat;
-            btnTelaCheia.Font = new Font("Segoe UI", 10F);
-            btnTelaCheia.ForeColor = Color.FromArgb(170, 180, 200);
-            btnTelaCheia.Image = Properties.Resources.icone_tela_cheia_claro;
-            btnTelaCheia.Location = new Point(1088, 18);
-            btnTelaCheia.Name = "btnTelaCheia";
-            btnTelaCheia.Size = new Size(172, 40);
-            btnTelaCheia.TabIndex = 6;
-            btnTelaCheia.Text = "Tela cheia";
-            btnTelaCheia.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnTelaCheia.UseVisualStyleBackColor = false;
-            btnTelaCheia.Click += btnTelaCheia_Click;
-            //
             // lblAtalhos
             //
             lblAtalhos.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
@@ -169,8 +127,6 @@ namespace BaurusTour.TelaInicial
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(1280, 720);
             Controls.Add(lblAtalhos);
-            Controls.Add(btnTelaCheia);
-            Controls.Add(btnGuia);
             Controls.Add(btnComecar);
             Controls.Add(lblSubtitulo);
             Controls.Add(pnlLinhaDourada);
@@ -195,8 +151,6 @@ namespace BaurusTour.TelaInicial
         private Panel pnlLinhaDourada;
         private Label lblSubtitulo;
         private Button btnComecar;
-        private Button btnGuia;
-        private Button btnTelaCheia;
         private Label lblAtalhos;
     }
 }

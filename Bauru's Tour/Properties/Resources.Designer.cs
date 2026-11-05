@@ -45,7 +45,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem banner_cabecalho.png da pasta Resources.
+        ///   Imagens banner_cabecalho.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap banner_cabecalho {
             get {
@@ -55,7 +55,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem categoria_compras.png da pasta Resources.
+        ///   Imagens categoria_compras.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap categoria_compras {
             get {
@@ -65,7 +65,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem categoria_gastronomia.png da pasta Resources.
+        ///   Imagens categoria_gastronomia.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap categoria_gastronomia {
             get {
@@ -75,7 +75,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem categoria_lazer_e_cultura.png da pasta Resources.
+        ///   Imagens categoria_lazer_e_cultura.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap categoria_lazer_e_cultura {
             get {
@@ -85,7 +85,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem categoria_natureza.png da pasta Resources.
+        ///   Imagens categoria_natureza.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap categoria_natureza {
             get {
@@ -95,7 +95,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem categoria_padrao.png da pasta Resources.
+        ///   Imagens categoria_padrao.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap categoria_padrao {
             get {
@@ -105,7 +105,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem fundo_inicial.png da pasta Resources.
+        ///   Imagens fundo_inicial.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap fundo_inicial {
             get {
@@ -115,7 +115,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone.ico da pasta Resources.
+        ///   Imagens icone.ico da pasta Resources.
         /// </summary>
         internal static System.Drawing.Icon icone {
             get {
@@ -125,7 +125,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_buscar.png da pasta Resources.
+        ///   Imagens icone_buscar.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_buscar {
             get {
@@ -135,7 +135,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_buscar_branco.png da pasta Resources.
+        ///   Imagens icone_buscar_branco.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_buscar_branco {
             get {
@@ -145,7 +145,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_compartilhar.png da pasta Resources.
+        ///   Imagens icone_compartilhar.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_compartilhar {
             get {
@@ -155,7 +155,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_copiar.png da pasta Resources.
+        ///   Imagens icone_copiar.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_copiar {
             get {
@@ -165,7 +165,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_copiar_branco.png da pasta Resources.
+        ///   Imagens icone_copiar_branco.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_copiar_branco {
             get {
@@ -175,7 +175,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_documento_branco.png da pasta Resources.
+        ///   Imagens icone_documento_branco.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_documento_branco {
             get {
@@ -185,7 +185,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_documento_claro.png da pasta Resources.
+        ///   Imagens icone_documento_claro.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_documento_claro {
             get {
@@ -195,7 +195,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_favoritos.png da pasta Resources.
+        ///   Imagens icone_favoritos.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_favoritos {
             get {
@@ -205,7 +205,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_inicio.png da pasta Resources.
+        ///   Imagens icone_inicio.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_inicio {
             get {
@@ -215,7 +215,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_mapa.png da pasta Resources.
+        ///   Imagens icone_mapa.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_mapa {
             get {
@@ -225,7 +225,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_mapa_branco.png da pasta Resources.
+        ///   Imagens icone_mapa_branco.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_mapa_branco {
             get {
@@ -235,7 +235,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_seta.png da pasta Resources.
+        ///   Imagens icone_seta.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_seta {
             get {
@@ -245,7 +245,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_seta_clara.png da pasta Resources.
+        ///   Imagens icone_seta_clara.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_seta_clara {
             get {
@@ -255,7 +255,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_sobre.png da pasta Resources.
+        ///   Imagens icone_sobre.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_sobre {
             get {
@@ -265,7 +265,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_tela_cheia.png da pasta Resources.
+        ///   Imagens icone_tela_cheia.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_tela_cheia {
             get {
@@ -275,7 +275,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_tela_cheia_claro.png da pasta Resources.
+        ///   Imagens icone_tela_cheia_claro.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_tela_cheia_claro {
             get {
@@ -285,7 +285,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_voltar.png da pasta Resources.
+        ///   Imagens icone_voltar.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_voltar {
             get {
@@ -295,7 +295,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem icone_whatsapp_branco.png da pasta Resources.
+        ///   Imagens icone_whatsapp_branco.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap icone_whatsapp_branco {
             get {
@@ -305,7 +305,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem ilustracao_menu.png da pasta Resources.
+        ///   Imagens ilustracao_menu.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap ilustracao_menu {
             get {
@@ -315,7 +315,7 @@ namespace BaurusTour.Properties {
         }
 
         /// <summary>
-        ///   Imagem logo.png da pasta Resources.
+        ///   Imagens logo.png da pasta Resources.
         /// </summary>
         internal static System.Drawing.Bitmap logo {
             get {

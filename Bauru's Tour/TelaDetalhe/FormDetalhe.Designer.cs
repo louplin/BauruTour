@@ -29,7 +29,6 @@ namespace BaurusTour.TelaDetalhe
         private void InitializeComponent()
         {
             pnlTopo = new Panel();
-            btnTelaCheia = new Button();
             lblMarca = new Label();
             picLogo = new PictureBox();
             btnVoltar = new Button();
@@ -52,7 +51,6 @@ namespace BaurusTour.TelaDetalhe
             // pnlTopo
             //
             pnlTopo.BackColor = Color.White;
-            pnlTopo.Controls.Add(btnTelaCheia);
             pnlTopo.Controls.Add(lblMarca);
             pnlTopo.Controls.Add(picLogo);
             pnlTopo.Controls.Add(btnVoltar);
@@ -61,26 +59,6 @@ namespace BaurusTour.TelaDetalhe
             pnlTopo.Name = "pnlTopo";
             pnlTopo.Size = new Size(1200, 76);
             pnlTopo.TabIndex = 0;
-            //
-            // btnTelaCheia
-            //
-            btnTelaCheia.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnTelaCheia.BackColor = Color.White;
-            btnTelaCheia.Cursor = Cursors.Hand;
-            btnTelaCheia.FlatAppearance.BorderColor = Color.FromArgb(220, 226, 230);
-            btnTelaCheia.FlatAppearance.MouseOverBackColor = Color.FromArgb(240, 244, 246);
-            btnTelaCheia.FlatStyle = FlatStyle.Flat;
-            btnTelaCheia.Font = new Font("Segoe UI", 11F);
-            btnTelaCheia.ForeColor = Color.FromArgb(13, 43, 94);
-            btnTelaCheia.Image = Properties.Resources.icone_tela_cheia;
-            btnTelaCheia.Location = new Point(992, 16);
-            btnTelaCheia.Name = "btnTelaCheia";
-            btnTelaCheia.Size = new Size(180, 44);
-            btnTelaCheia.TabIndex = 3;
-            btnTelaCheia.Text = "Tela cheia";
-            btnTelaCheia.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnTelaCheia.UseVisualStyleBackColor = false;
-            btnTelaCheia.Click += btnTelaCheia_Click;
             //
             // lblMarca
             //
@@ -310,7 +288,6 @@ namespace BaurusTour.TelaDetalhe
         private Button btnVoltar;
         private PictureBox picLogo;
         private Label lblMarca;
-        private Button btnTelaCheia;
         private Panel pnlLinhaTopo;
         private PictureBox picFoto;
         private Label lblCategoria;

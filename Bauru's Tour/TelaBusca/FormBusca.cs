@@ -1,27 +1,23 @@
 using System.Diagnostics;
+using BaurusTour.Classes;
 using BaurusTour.Componentes;
-using BaurusTour.Data;
 using BaurusTour.Models;
-using BaurusTour.Services;
 using BaurusTour.TelaDetalhe;
+using BaurusTour.TelaSobre;
 
 namespace BaurusTour.TelaBusca
 {
-    /// <summary>
-    /// Tela principal: menu lateral, busca, categorias e os cards dos pontos.
-    /// Todo o visual está no Designer (FormBusca.Designer.cs).
-    /// Aqui fica só o que acontece quando clica nos botões.
-    /// </summary>
+    // Tela principal: menu lateral, busca, categorias e os cards dos pontos
     public partial class FormBusca : Form
     {
-        // Cores usadas para destacar o botão selecionado
-        private readonly Color corPrimaria = Color.FromArgb(11, 107, 138);
-        private readonly Color corAzulEscuro = Color.FromArgb(13, 43, 94);
-        private readonly Color corBorda = Color.FromArgb(220, 226, 230);
-        private readonly Color corMenuSelecionado = Color.FromArgb(228, 241, 245);
+        // Cores do botão selecionado
+        private Color corPrimaria = Color.FromArgb(11, 107, 138);
+        private Color corAzulEscuro = Color.FromArgb(13, 43, 94);
+        private Color corBorda = Color.FromArgb(220, 226, 230);
+        private Color corMenuSelecionado = Color.FromArgb(228, 241, 245);
 
-        private readonly PontoTuristicoService servico;
-        private readonly FavoritosService favoritos;
+        private GerenciadorPontos pontos;
+        private GerenciadorFavoritos favoritos;
 
         private string categoriaSelecionada = "Todos";
         private bool mostrandoFavoritos = false;
@@ -31,18 +27,22 @@ namespace BaurusTour.TelaBusca
             InitializeComponent();
 
             string caminhoJson = Path.Combine(AppContext.BaseDirectory, "pontos.json");
-            servico = new PontoTuristicoService(new PontoTuristicoRepository(caminhoJson));
-            favoritos = new FavoritosService();
+            pontos = new GerenciadorPontos(caminhoJson);
+            favoritos = new GerenciadorFavoritos();
         }
 
-        // ================================================================
-        // Ao abrir a tela: cria um card para cada ponto do pontos.json
-        // ================================================================
+        // Cria um card para cada ponto do pontos.json
         private void FormBusca_Load(object? sender, EventArgs e)
         {
-            foreach (PontoTuristico ponto in servico.ListarTodos())
+            if (pontos.MensagemErro != "")
             {
-                var card = new CardPontoTuristico();
+                MessageBox.Show(pontos.MensagemErro, "Erro ao carregar os pontos",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            foreach (PontoTuristico ponto in pontos.ListarTodos())
+            {
+                CardPontoTuristico card = new CardPontoTuristico();
                 card.MostrarPonto(ponto, favoritos.EhFavorito(ponto.Id));
                 card.VerDetalhesClicado += Card_VerDetalhesClicado;
                 card.FavoritarClicado += Card_FavoritarClicado;
@@ -52,19 +52,27 @@ namespace BaurusTour.TelaBusca
             AtualizarLista();
         }
 
-        /// <summary>
-        /// Mostra só os cards que combinam com a busca, a categoria
-        /// e (se estiver na aba Favoritos) com os favoritos.
-        /// </summary>
+        // Mostra só os cards que combinam com a busca, a categoria e os favoritos
         private void AtualizarLista()
         {
-            List<int>? somenteFavoritos = mostrandoFavoritos ? favoritos.Ids : null;
-            List<PontoTuristico> resultado = servico.Pesquisar(txtBusca.Text, categoriaSelecionada, somenteFavoritos);
+            List<int>? somenteFavoritos = null;
+            if (mostrandoFavoritos)
+                somenteFavoritos = favoritos.Ids;
 
-            foreach (CardPontoTuristico card in flpCards.Controls.OfType<CardPontoTuristico>())
+            List<PontoTuristico> resultado = pontos.Pesquisar(txtBusca.Text, categoriaSelecionada, somenteFavoritos);
+
+            foreach (Control controle in flpCards.Controls)
             {
-                card.Visible = card.Ponto != null && resultado.Contains(card.Ponto);
-                card.MostrarFavorito(card.Ponto != null && favoritos.EhFavorito(card.Ponto.Id));
+                CardPontoTuristico? card = controle as CardPontoTuristico;
+                if (card == null)
+                    continue;
+
+                PontoTuristico? ponto = card.ObterPonto();
+                if (ponto == null)
+                    continue;
+
+                card.Visible = resultado.Contains(ponto);
+                card.MostrarFavorito(favoritos.EhFavorito(ponto.Id));
             }
 
             lblNenhumResultado.Visible = resultado.Count == 0;
@@ -72,64 +80,86 @@ namespace BaurusTour.TelaBusca
             btnFavoritos.Text = "Favoritos (" + favoritos.Ids.Count + ")";
         }
 
-        // ================================================================
-        // Cards
-        // ================================================================
         private void Card_VerDetalhesClicado(object? sender, EventArgs e)
         {
-            var card = (CardPontoTuristico)sender!;
-            if (card.Ponto == null)
+            CardPontoTuristico? card = sender as CardPontoTuristico;
+            if (card == null)
                 return;
 
-            using (var telaDetalhe = new FormDetalhe(card.Ponto, favoritos))
+            PontoTuristico? ponto = card.ObterPonto();
+            if (ponto == null)
+                return;
+
+            using (FormDetalhe telaDetalhe = new FormDetalhe(ponto, favoritos))
             {
-                // Se esta tela está em tela cheia, a de detalhes abre em tela cheia também
+                // se esta tela está em tela cheia, a de detalhes abre em tela cheia também
                 if (FormBorderStyle == FormBorderStyle.None)
                     telaDetalhe.FormBorderStyle = FormBorderStyle.None;
 
                 telaDetalhe.ShowDialog(this);
             }
 
-            AtualizarLista(); // o coração pode ter mudado lá dentro
+            // o favorito pode ter mudado na tela de detalhes
+            AtualizarLista();
         }
 
         private void Card_FavoritarClicado(object? sender, EventArgs e)
         {
-            var card = (CardPontoTuristico)sender!;
-            if (card.Ponto == null)
+            CardPontoTuristico? card = sender as CardPontoTuristico;
+            if (card == null)
                 return;
 
-            favoritos.Alternar(card.Ponto.Id);
+            PontoTuristico? ponto = card.ObterPonto();
+            if (ponto == null)
+                return;
+
+            favoritos.Alternar(ponto.Id);
             AtualizarLista();
         }
 
-        // ================================================================
-        // Busca e categorias
-        // ================================================================
         private void btnBuscar_Click(object? sender, EventArgs e)
         {
             AtualizarLista();
         }
 
-        // A lista vai filtrando enquanto a pessoa digita
+        // Vai filtrando enquanto a pessoa digita
         private void txtBusca_TextChanged(object? sender, EventArgs e)
         {
             AtualizarLista();
         }
 
-        // Todos os botões de categoria usam este mesmo clique.
-        // A categoria de cada botão está escrita na propriedade Tag (no Designer).
+        // Todos os botões de categoria usam este evento.
+        // O nome da categoria de cada botão está na propriedade Tag (no Designer).
         private void Categoria_Click(object? sender, EventArgs e)
         {
-            var botaoClicado = (Button)sender!;
-            categoriaSelecionada = botaoClicado.Tag?.ToString() ?? "Todos";
+            Button? botaoClicado = sender as Button;
+            if (botaoClicado == null)
+                return;
 
-            foreach (Button botao in flpCategorias.Controls.OfType<Button>())
+            string? categoria = botaoClicado.Tag as string;
+            if (categoria == null)
+                categoria = "Todos";
+
+            categoriaSelecionada = categoria;
+
+            foreach (Control controle in flpCategorias.Controls)
             {
-                bool selecionado = botao == botaoClicado;
-                botao.BackColor = selecionado ? corPrimaria : Color.White;
-                botao.ForeColor = selecionado ? Color.White : corAzulEscuro;
-                botao.FlatAppearance.BorderColor = selecionado ? corPrimaria : corBorda;
+                Button? botao = controle as Button;
+                if (botao == null)
+                    continue;
+
+                if (botao == botaoClicado)
+                {
+                    botao.BackColor = corPrimaria;
+                    botao.ForeColor = Color.White;
+                    botao.FlatAppearance.BorderColor = corPrimaria;
+                }
+                else
+                {
+                    botao.BackColor = Color.White;
+                    botao.ForeColor = corAzulEscuro;
+                    botao.FlatAppearance.BorderColor = corBorda;
+                }
             }
 
             AtualizarLista();
@@ -141,29 +171,28 @@ namespace BaurusTour.TelaBusca
             Categoria_Click(btnCategoriaTodos, EventArgs.Empty);
         }
 
-        // ================================================================
-        // Menu lateral
-        // ================================================================
         private void btnInicio_Click(object? sender, EventArgs e)
         {
             mostrandoFavoritos = false;
             lblTituloSecao.Text = "Explore Bauru";
-            MostrarLista(true);
             DestacarMenu(btnInicio);
+            AtualizarLista();
         }
 
         private void btnFavoritos_Click(object? sender, EventArgs e)
         {
             mostrandoFavoritos = true;
             lblTituloSecao.Text = "Meus favoritos";
-            MostrarLista(true);
             DestacarMenu(btnFavoritos);
+            AtualizarLista();
         }
 
         private void btnSobre_Click(object? sender, EventArgs e)
         {
-            MostrarLista(false);
-            DestacarMenu(btnSobre);
+            using (FormSobre telaSobre = new FormSobre())
+            {
+                telaSobre.ShowDialog(this);
+            }
         }
 
         private void btnMapa_Click(object? sender, EventArgs e)
@@ -172,54 +201,28 @@ namespace BaurusTour.TelaBusca
             Process.Start(new ProcessStartInfo(link) { UseShellExecute = true });
         }
 
-        private void btnGuia_Click(object? sender, EventArgs e)
-        {
-            string pdf = Path.Combine(AppContext.BaseDirectory, "Manual", "Guia-de-uso-Bauru-Tour.pdf");
-            Process.Start(new ProcessStartInfo(pdf) { UseShellExecute = true });
-        }
-
-        /// <summary>true = mostra a lista de cards. false = mostra a aba Sobre.</summary>
-        private void MostrarLista(bool mostrar)
-        {
-            flpCards.Visible = mostrar;
-            pnlTituloSecao.Visible = mostrar;
-            pnlSobre.Visible = !mostrar;
-            AtualizarLista();
-        }
-
-        /// <summary>Pinta de azul claro o botão do menu que está aberto.</summary>
+        // Pinta de azul claro o botão do menu que está selecionado
         private void DestacarMenu(Button selecionado)
         {
             btnInicio.BackColor = Color.White;
             btnFavoritos.BackColor = Color.White;
-            btnSobre.BackColor = Color.White;
             selecionado.BackColor = corMenuSelecionado;
         }
 
-        // ================================================================
-        // Tela cheia (botão do menu ou tecla F11)
-        // ================================================================
-        private void btnTelaCheia_Click(object? sender, EventArgs e)
-        {
-            AlternarTelaCheia();
-        }
-
+        // F11 liga/desliga a tela cheia
         private void AlternarTelaCheia()
         {
             if (FormBorderStyle == FormBorderStyle.None)
             {
-                // Volta para janela normal
                 FormBorderStyle = FormBorderStyle.Sizable;
                 WindowState = FormWindowState.Maximized;
-                btnTelaCheia.Text = "Tela cheia";
             }
             else
             {
-                // Tira a borda e ocupa a tela toda (cobre a barra de tarefas)
+                // volta pra Normal antes, senão a barra de tarefas continua aparecendo
                 WindowState = FormWindowState.Normal;
                 FormBorderStyle = FormBorderStyle.None;
                 WindowState = FormWindowState.Maximized;
-                btnTelaCheia.Text = "Sair da tela cheia";
             }
         }
 

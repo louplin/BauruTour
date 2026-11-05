@@ -1,71 +1,44 @@
-using System.Diagnostics;
 using BaurusTour.TelaBusca;
 
 namespace BaurusTour.TelaInicial
 {
-    /// <summary>
-    /// Tela de boas-vindas. O visual (fundo com o planeta, textos e botões)
-    /// está todo no Designer (FormInicial.Designer.cs).
-    ///
-    /// O app começa por aqui: o método Main fica nesta classe,
-    /// por isso o projeto não precisa de Program.cs.
-    /// </summary>
+    // Tela de boas-vindas
     public partial class FormInicial : Form
     {
-        [STAThread]
-        private static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormInicial());
-        }
-
         public FormInicial()
         {
             InitializeComponent();
         }
 
-        // Abre a tela de busca e esconde esta
         private void btnComecar_Click(object? sender, EventArgs e)
         {
-            var telaBusca = new FormBusca();
-
-            // Quando a tela de busca fechar, o app inteiro fecha
-            telaBusca.FormClosed += (s, args) => Close();
-
+            FormBusca telaBusca = new FormBusca();
+            telaBusca.FormClosed += TelaBusca_FormClosed;
             telaBusca.Show();
             Hide();
         }
 
-        // Abre o PDF com o passo a passo de como usar o app
-        private void btnGuia_Click(object? sender, EventArgs e)
+        // Quando a tela de busca fecha, fecha esta também (e o app termina)
+        private void TelaBusca_FormClosed(object? sender, FormClosedEventArgs e)
         {
-            string pdf = Path.Combine(AppContext.BaseDirectory, "Manual", "Guia-de-uso-Bauru-Tour.pdf");
-            Process.Start(new ProcessStartInfo(pdf) { UseShellExecute = true });
+            Close();
         }
 
-        // ================================================================
-        // Tela cheia (botão ou F11) e tecla Esc
-        // ================================================================
-        private void btnTelaCheia_Click(object? sender, EventArgs e)
-        {
-            AlternarTelaCheia();
-        }
-
+        // F11 liga/desliga a tela cheia
         private void AlternarTelaCheia()
         {
             if (FormBorderStyle == FormBorderStyle.None)
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 WindowState = FormWindowState.Maximized;
-                btnTelaCheia.Text = "Tela cheia";
             }
             else
             {
+                // Se a janela já estiver maximizada, o Windows não recalcula o tamanho
+                // e a barra de tarefas continua aparecendo. Por isso volta pra Normal antes.
                 WindowState = FormWindowState.Normal;
                 FormBorderStyle = FormBorderStyle.None;
                 WindowState = FormWindowState.Maximized;
-                btnTelaCheia.Text = "Sair da tela cheia";
             }
         }
 
@@ -74,7 +47,7 @@ namespace BaurusTour.TelaInicial
             if (e.KeyCode == Keys.F11)
                 AlternarTelaCheia();
 
-            // Esc: sai da tela cheia; se já estiver em janela, fecha o app
+            // Esc sai da tela cheia, ou fecha o app se não estiver em tela cheia
             if (e.KeyCode == Keys.Escape)
             {
                 if (FormBorderStyle == FormBorderStyle.None)

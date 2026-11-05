@@ -1,57 +1,59 @@
-using System.ComponentModel;
+using BaurusTour.Classes;
 using BaurusTour.Models;
-using BaurusTour.Services;
 
 namespace BaurusTour.Componentes
 {
-    /// <summary>
-    /// Card de um ponto turístico. O visual dele está no Designer
-    /// (CardPontoTuristico.Designer.cs). Aqui só colocamos os dados do ponto
-    /// e avisamos a tela de busca quando clicam nos botões.
-    /// </summary>
+    // Card que aparece na tela de busca para cada ponto turístico.
+    // O visual está no Designer.
     public partial class CardPontoTuristico : UserControl
     {
-        // A tela de busca "escuta" esses dois avisos
+        // Eventos que a tela de busca "escuta" para saber quando clicaram no card
         public event EventHandler? VerDetalhesClicado;
         public event EventHandler? FavoritarClicado;
+
+        private PontoTuristico? ponto;
 
         public CardPontoTuristico()
         {
             InitializeComponent();
         }
 
-        /// <summary>O ponto turístico que este card está mostrando.</summary>
-        [Browsable(false)]
-        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-        public PontoTuristico? Ponto { get; private set; }
-
-        /// <summary>Preenche o card com os dados do ponto.</summary>
-        public void MostrarPonto(PontoTuristico ponto, bool favorito)
+        public PontoTuristico? ObterPonto()
         {
-            Ponto = ponto;
-            picFoto.Image = FotoService.FotoDoPonto(ponto);
-            lblCategoria.Text = ponto.Categoria;
-            lblNome.Text = ponto.Nome;
-            lblDescricao.Text = ponto.Descricao;
+            return ponto;
+        }
+
+        // Coloca os dados do ponto no card
+        public void MostrarPonto(PontoTuristico pontoTuristico, bool favorito)
+        {
+            ponto = pontoTuristico;
+            picFoto.Image = GerenciadorFotos.FotoDoPonto(pontoTuristico);
+            lblCategoria.Text = pontoTuristico.Categoria;
+            lblNome.Text = pontoTuristico.Nome;
+            lblDescricao.Text = pontoTuristico.Descricao;
             MostrarFavorito(favorito);
         }
 
-        /// <summary>Coração cheio (♥) se for favorito, vazio (♡) se não for.</summary>
+        // ♥ = favorito, ♡ = não favorito
         public void MostrarFavorito(bool favorito)
         {
-            btnFavoritar.Text = favorito ? "♥" : "♡";
+            if (favorito)
+                btnFavoritar.Text = "♥";
+            else
+                btnFavoritar.Text = "♡";
         }
 
         // Clique na foto, no nome ou no botão "Ver detalhes"
         private void btnVerDetalhes_Click(object? sender, EventArgs e)
         {
-            VerDetalhesClicado?.Invoke(this, EventArgs.Empty);
+            if (VerDetalhesClicado != null)
+                VerDetalhesClicado(this, EventArgs.Empty);
         }
 
-        // Clique no coração
         private void btnFavoritar_Click(object? sender, EventArgs e)
         {
-            FavoritarClicado?.Invoke(this, EventArgs.Empty);
+            if (FavoritarClicado != null)
+                FavoritarClicado(this, EventArgs.Empty);
         }
     }
 }
