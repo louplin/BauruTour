@@ -117,20 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lblSobreTexto.Text" xml:space="preserve">
-    <value>O Bauru's Tour é um guia dos pontos turísticos de Bauru (SP), feito em C# com Windows Forms como trabalho da faculdade de CC (Ciências da computação)
-
-No app dá pra buscar um lugar pelo nome, filtrar por categoria, ver os detalhes de cada ponto, abrir a localização no Google Maps, mandar o link pelo WhatsApp e guardar os seus favoritos.
-
-Os lugares ficam no arquivo pontos.json e os favoritos são salvos no próprio computador, então continuam lá quando você abre o app de novo.</value>
-  </data>
-  <data name="lblEquipe.Text" xml:space="preserve">
-    <value>A nossa equipe de desenvolvimento inclui: 
-
-Gustavo Fontanez (Windows Forms e correção de Bugs)
-Matheus Faria (Ideia do projeto, Pesquisa e Suporte)
-Vincius Cury (Back-end)
-Luis Otávio Pavanato (Pesquisa e Organização dos dados em JSON)
-Olavo Faustino (Pesquisas e Documentação do Projeto)  </value>
-  </data>
 </root>

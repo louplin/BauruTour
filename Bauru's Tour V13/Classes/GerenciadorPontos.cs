@@ -46,18 +46,6 @@ namespace BaurusTour.Classes
             return pontos;
         }
 
-        // Procura um ponto pelo id. Retorna null se não achar.
-        public PontoTuristico? BuscarPorId(int id)
-        {
-            foreach (PontoTuristico ponto in pontos)
-            {
-                if (ponto.Id == id)
-                    return ponto;
-            }
-
-            return null;
-        }
-
         // Filtra pelo texto digitado, pela categoria e (na aba Favoritos) pelos ids favoritados.
         // Se somenteIds for null, não filtra por favoritos.
         public List<PontoTuristico> Pesquisar(string texto, string categoria, List<int>? somenteIds)

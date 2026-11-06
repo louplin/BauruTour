@@ -46,5 +46,26 @@
     <!-- Pasta do mini mapa: o modelo HTML e os links de cada lugar -->
     <None Update="HtmlMapas\**\*.html;HtmlMapas\**\*.json;HtmlMapas\**\*.txt" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagens\Jardim Botânico\" />
+    <Folder Include="Imagens\Horto Florestal\" />
+    <Folder Include="Imagens\Bosque da comunidade\" />
+    <Folder Include="Imagens\Flipper Lanches\" />
+    <Folder Include="Imagens\Coisa Boa do Chef Moa\" />
+    <Folder Include="Imagens\Agustina Parrila e Bar\" />
+    <Folder Include="Imagens\Dona Baunilha\" />
+    <Folder Include="Imagens\Catedral do Divino Espírito Santo\" />
+    <Folder Include="Imagens\Ginásio SESI Vôlei Paulo Skaf\" />
+    <Folder Include="Imagens\Estádio Alfredo de Castilho\" />
+    <Folder Include="Imagens\Ginasio Panela de Pressão\" />
+    <Folder Include="Imagens\Calçadão da Batitsta\" />
+    <Folder Include="Imagens\Bauru Shopping\" />
+    <Folder Include="Imagens\Boulevard Shopping\" />
+    <Folder Include="Imagens\Alameda Rodoserv Center\" />
+    <Folder Include="Imagens\SESC Bauru\" />
+    <Folder Include="Imagens\Teatro Municipal Celina Lourdes Alves Neves\" />
+    <Folder Include="Imagens\Terrazzo Cucina\" />
+    <Folder Include="Imagens\Zoologico\" />
+  </ItemGroup>
 
 </Project>
