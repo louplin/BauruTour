@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>BaurusTour</RootNamespace>
+    <AssemblyName>BaurusTour</AssemblyName>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Resources\icone.ico</ApplicationIcon>
+    <Product>Bauru's Tour</Product>
+
+    <!-- O pacote do WebView2 traz uma parte para WPF que este projeto não usa.
+         Isso gera o aviso MSB3277 (conflito de versão do WindowsBase), que não atrapalha em nada. -->
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+
+  <!-- WebView2: navegador do Edge dentro do Windows Forms. Mostra o mini mapa do Google Maps
+       na tela de detalhes. O Visual Studio baixa o pacote sozinho na primeira compilação. -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3967.48" />
+  </ItemGroup>
+
+  <!-- Imagens do projeto (Projeto > Propriedades > Recursos). Aparecem no Designer. -->
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <!-- Arquivos que vão junto com o .exe (pasta bin) -->
+  <ItemGroup>
+    <None Update="pontos.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Imagens\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Manual\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <!-- Pasta do mini mapa: o modelo HTML e os links de cada lugar -->
+    <None Update="HtmlMapas\**\*.html;HtmlMapas\**\*.json;HtmlMapas\**\*.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
