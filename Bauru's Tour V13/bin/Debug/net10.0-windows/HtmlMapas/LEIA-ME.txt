@@ -1,0 +1,33 @@
+PASTA HtmlMapas - o mini mapa do Google Maps da tela de detalhes
+=================================================================
+
+O que tem aqui:
+
+  MapaHtml.cs          Código C# que monta o mapa. Lê o modelo HTML e o
+                       mapas.json e entrega a página pronta para o WebView2.
+
+  modelo-mapa.html     O HTML do mini mapa. Tem um <iframe> do Google Maps
+                       com o texto {{LINK_DO_MAPA}}, que o app troca pelo
+                       link do lugar.
+
+  mapas.json           O link do mapa de cada lugar (pelo Id do pontos.json).
+                       É AQUI que ficam os links dos mapas em HTML.
+
+  todos-os-mapas.html  Página para abrir no navegador e ver todos os mapas
+                       de uma vez. Serve só para conferir e para mostrar
+                       ao professor; o app não usa este arquivo.
+
+Como trocar o mapa de um lugar por um mais exato:
+
+  1. Abra o lugar no Google Maps.
+  2. Clique em Compartilhar > Incorporar um mapa > COPIAR HTML.
+  3. No mapas.json, ache o lugar pelo Id e cole no "LinkMapa".
+     Pode colar o <iframe ...> inteiro: o app pega só o link de dentro.
+
+Como funciona por dentro (caminho do mapa até a tela):
+
+  pontos.json (Id do lugar)
+      -> mapas.json (LinkMapa daquele Id)
+      -> modelo-mapa.html ({{LINK_DO_MAPA}} vira o link)
+      -> MapaHtml.MontarPagina() junta tudo
+      -> FormDetalhe mostra no controle webMapa (WebView2)

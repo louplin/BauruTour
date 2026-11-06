@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JjJ7i7PueI8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gustavo Fontanez\\Documents\\GitHub\\Bauru-s-Tour\\Bauru-s-Tour\\Bauru's Tour V13\\BaurusTour.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gustavo Fontanez\\.nuget\\packages\\microsoft.web.webview2\\1.0.3967.48\\microsoft.web.webview2.1.0.3967.48.nupkg.sha512"
+  ],
+  "logs": []
+}
