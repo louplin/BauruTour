@@ -68,13 +68,8 @@ namespace BaurusTour.TelaBusca
             SuspendLayout();
             // 
             // pnlMenu
-<<<<<<< HEAD:Bauru's Tour V13/TelaBusca/FormBusca.Designer.cs
             // 
             pnlMenu.BackColor = Color.FromArgb(242, 248, 250);
-=======
-            //
-            pnlMenu.BackColor = Color.White;
->>>>>>> 8099249b7cf00926ba41a2a00af66ff0647ff96a:Bauru's Tour/TelaBusca/FormBusca.Designer.cs
             pnlMenu.Controls.Add(btnSobre);
             pnlMenu.Controls.Add(btnFavoritos);
             pnlMenu.Controls.Add(btnMapa);
@@ -85,11 +80,7 @@ namespace BaurusTour.TelaBusca
             pnlMenu.Name = "pnlMenu";
             pnlMenu.Size = new Size(220, 800);
             pnlMenu.TabIndex = 0;
-<<<<<<< HEAD:Bauru's Tour V13/TelaBusca/FormBusca.Designer.cs
             // 
-=======
-            //
->>>>>>> 8099249b7cf00926ba41a2a00af66ff0647ff96a:Bauru's Tour/TelaBusca/FormBusca.Designer.cs
             // btnSobre
             // 
             btnSobre.Cursor = Cursors.Hand;
@@ -228,11 +219,7 @@ namespace BaurusTour.TelaBusca
             lblNenhumResultado.TabIndex = 0;
             lblNenhumResultado.Text = "Nenhum lugar encontrado. Tente outra palavra ou outra categoria.";
             lblNenhumResultado.Visible = false;
-<<<<<<< HEAD:Bauru's Tour V13/TelaBusca/FormBusca.Designer.cs
             // 
-=======
-            //
->>>>>>> 8099249b7cf00926ba41a2a00af66ff0647ff96a:Bauru's Tour/TelaBusca/FormBusca.Designer.cs
             // pnlTituloSecao
             // 
             pnlTituloSecao.Controls.Add(btnSurpreenda);
