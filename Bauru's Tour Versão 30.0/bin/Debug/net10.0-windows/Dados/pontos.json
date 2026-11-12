@@ -1,0 +1,1234 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Parque Vitória Régia",
+    "Categoria": "Natureza",
+    "Descricao": "O Parque Vitória Régia é o cartão-postal de Bauru e um dos lugares mais queridos de quem mora na cidade. Ele foi construído em volta de um lago grande, cercado por gramado, árvores e uma pista de caminhada que dá a volta inteira, então é fácil passar uma tarde inteira por lá sem perceber o tempo passar.\n\nDurante a semana o clima é mais tranquilo, bom para correr ou caminhar no fim da tarde. Já no fim de semana o parque enche: tem família fazendo piquenique, criança de bicicleta, gente tomando sol e grupos de amigos sentados no gramado. O parque também tem um palco ao ar livre, onde de vez em quando acontecem shows e eventos da cidade.",
+    "Curiosidades": "O parque foi projetado em 1976 pelo arquiteto Jurandyr Bueno Filho, que se inspirou na ágora grega, a praça onde os gregos antigos se reuniam para conversar e decidir as coisas da cidade. A ideia era a mesma: um lugar de encontro no meio de Bauru.\n\nO palco do anfiteatro tem o formato da flor da vitória-régia, a planta aquática que dá nome ao parque. A obra não foi fácil: o anfiteatro foi construído em uma área alagada e cheia de erosões, e a acústica precisou de um cuidado especial para o som chegar bem à arquibancada.\n\nAs fontes não concordam sobre o ano exato da inauguração (algumas falam em 1976, outras em 1978). No fim de 2019 o parque ganhou, em uma das pontas, um espaço de brincar inclusivo, pensado para crianças com e sem deficiência.",
+    "Ficha": [
+      "Projeto: 1976, do arquiteto Jurandyr Bueno Filho",
+      "Inspiração: a ágora grega",
+      "Palco: em forma de flor de vitória-régia",
+      "Entrada: gratuita"
+    ],
+    "Endereco": "Av. Nações Unidas, 25-25 - Jardim Brasil, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/812ezVadCJnkRemR7",
+    "Telefone": "",
+    "Site": "",
+    "Instagram": "",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Gratuito",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "00:00",
+    "FechaSemana": "00:00",
+    "AbreSabado": "00:00",
+    "FechaSabado": "00:00",
+    "AbreDomingo": "00:00",
+    "FechaDomingo": "00:00",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "O parque fica aberto todos os dias, 24 horas. O Jardim da Nascente, perto do lago, abre aos sábados.",
+    "OQueFazer": [
+      "Caminhar ou correr na pista em volta do lago",
+      "Andar de bicicleta ou de patins",
+      "Fazer um piquenique no gramado",
+      "Ver o pôr do sol refletindo no lago",
+      "Assistir aos shows e eventos no palco ao ar livre",
+      "Levar a bicicleta e dar várias voltas no lago",
+      "Fazer alongamento e exercício no gramado",
+      "Tirar foto no letreiro Eu ♥ Bauru e com o lago de fundo",
+      "Passear com o cachorro no fim da tarde"
+    ],
+    "Dicas": [
+      "O fim da tarde é o melhor horário: o sol fica mais fraco e a vista do lago fica bonita.",
+      "No fim de semana o parque fica bem cheio, então chegue cedo se quiser um lugar na sombra.",
+      "Leve água e protetor solar, porque boa parte da pista não tem sombra.",
+      "Fique de olho na agenda da prefeitura: em datas comemorativas o parque costuma receber shows e feiras.",
+      "Para fotos, o melhor horário é o fim da tarde, com a luz mais quente.",
+      "Vá com roupa leve e tênis: a volta no lago é longa e boa parte é no sol."
+    ],
+    "LugaresPerto": [
+      12
+    ],
+    "Imagem": "Imagens/Pontos/parque-vitoria-regia-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/parque-vitoria-regia-2.jpg",
+      "Imagens/Pontos/parque-vitoria-regia-3.jpg",
+      "Imagens/Pontos/parque-vitoria-regia-4.jpg"
+    ],
+    "Fontes": [
+      "Wikipedia - Parque Vitória Régia (Bauru)",
+      "Encontra Bauru",
+      "JCNET / Sampi",
+      "Prata Construtora",
+      "Kupi / Buser / Social Bauru (horários)"
+    ]
+  },
+  {
+    "Id": 2,
+    "Nome": "Jardim Botânico",
+    "Categoria": "Natureza",
+    "Descricao": "Criado em 1994, o Jardim Botânico Municipal de Bauru tem 321 hectares e protege uma das áreas de cerrado mais importantes do estado de São Paulo. É um lugar para quem gosta de natureza de verdade: o espaço tem trilhas no meio da vegetação nativa e coleções de plantas que ajudam a entender a flora da região.\n\nA entrada é gratuita e o Jardim fica logo ao lado do Zoológico Municipal, na mesma rodovia. Por isso muita gente aproveita o mesmo dia para conhecer os dois. É um passeio calmo, bom para ir com a família, com a turma da faculdade ou sozinho, só para desligar um pouco da cidade.",
+    "Curiosidades": "A história dessa área começa bem antes do parque. Em 1918 a Câmara Municipal comprou parte da Fazenda Vargem Limpa para captar água do córrego de mesmo nome, e a mata ficou protegida desde então.\n\nO lugar foi primeiro um Parque Ecológico e, em 4 de março de 1994, a Lei Municipal nº 3.684 o transformou no Jardim Botânico Municipal de Bauru. Dos 321 hectares, cerca de 280 são de cerrado, o que faz dele uma das maiores reservas desse bioma no estado de São Paulo.\n\nEm 2018 a reserva passou a fazer parte do Refúgio de Vida Silvestre Aimorés, uma unidade de conservação estadual. A trilha ecológica tem pouco mais de 1 km, e o começo dela é uma passarela de madeira que dá para percorrer de cadeira de rodas.",
+    "Ficha": [
+      "Criação: 4 de março de 1994 (Lei nº 3.684)",
+      "Área: 321 hectares",
+      "Cerrado: cerca de 280 hectares",
+      "Trilha ecológica: pouco mais de 1 km",
+      "Entrada: gratuita"
+    ],
+    "Endereco": "Rod. Cmte. João Ribeiro de Barros, km 232 - Tangarás, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/fX4s8nhffVdikXXb6",
+    "Telefone": "(14) 3281-3358",
+    "Site": "https://www.jardimbotanicobauru.com.br/",
+    "Instagram": "@jbbauru",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Gratuito",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "08:00",
+    "FechaSemana": "16:00",
+    "AbreSabado": "08:00",
+    "FechaSabado": "16:00",
+    "AbreDomingo": "08:00",
+    "FechaDomingo": "16:00",
+    "FechadoSegunda": true,
+    "ObservacaoHorario": "Dá pra ficar lá dentro até as 16h30. Em janeiro, julho e dezembro (férias escolares) também abre às segundas.",
+    "OQueFazer": [
+      "Fazer as trilhas no meio do cerrado",
+      "Conhecer as coleções de plantas",
+      "Observar pássaros e outros bichos da região",
+      "Tirar fotos no meio do verde",
+      "Emendar com uma visita ao Zoológico, que fica do lado",
+      "Visitar com a turma da escola ou da faculdade para aprender sobre o cerrado",
+      "Fazer um passeio fotográfico de plantas e flores",
+      "Descansar nos espaços de sombra entre uma trilha e outra"
+    ],
+    "Dicas": [
+      "Use tênis confortável e roupa leve, porque as trilhas são de terra.",
+      "Leve repelente e uma garrafa de água.",
+      "Combine com o Zoológico: os dois ficam lado a lado e dá para conhecer ambos no mesmo dia.",
+      "Evite os horários de sol mais forte, entre 11h e 15h.",
+      "Respeite as trilhas sinalizadas e não leve plantas ou sementes para casa.",
+      "Vá cedo para pegar o clima mais fresco e ver mais pássaros."
+    ],
+    "LugaresPerto": [
+      5
+    ],
+    "Imagem": "Imagens/Pontos/jardim-botanico-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/jardim-botanico-2.jpg",
+      "Imagens/Pontos/jardim-botanico-3.jpg",
+      "Imagens/Pontos/jardim-botanico-4.jpg"
+    ],
+    "Fontes": [
+      "Prefeitura de Bauru",
+      "Jardim Botânico de Bauru (site oficial)",
+      "Wikiloc - Trilha Ecológica",
+      "Prefeitura de Bauru (horários)"
+    ]
+  },
+  {
+    "Id": 3,
+    "Nome": "Horto Florestal",
+    "Categoria": "Natureza",
+    "Descricao": "O Horto Florestal é um pedaço de mata fechada dentro da cidade. As árvores são altas, as trilhas são de terra batida e a sombra é tanta que a temperatura lá dentro fica bem mais agradável que na rua, o que faz diferença no calor de Bauru.\n\nO lugar é muito procurado por quem gosta de caminhar e correr longe do trânsito, mas também funciona para um passeio sem pressa, um piquenique ou só para ouvir o barulho dos passarinhos. É uma boa opção para quem quer sentir que saiu da cidade sem precisar pegar a estrada.",
+    "Curiosidades": "O nome oficial do Horto é Estação Experimental de Bauru, uma unidade do Instituto Florestal do Estado de São Paulo. Ele foi fundado em 1928 como um centro de estudos sobre o eucalipto.\n\nO eucalipto não é uma árvore brasileira: ele foi trazido da Austrália pelo agrônomo Edmundo Navarro de Andrade, que trabalhava para as ferrovias paulistas e precisava de madeira para os dormentes dos trilhos e para o carvão das locomotivas. Segundo reportagens locais, o próprio Navarro de Andrade plantou árvores no Horto, e um caderno de anotações dele com registros de 1932 ainda é guardado no local.\n\nHoje são cerca de 43 hectares de mata no meio da cidade, um dos lugares mais frescos de Bauru nos dias de calor.",
+    "Ficha": [
+      "Fundação: 1928",
+      "Nome oficial: Estação Experimental de Bauru",
+      "Área: cerca de 43 hectares",
+      "Responsável: Instituto Florestal (SP)"
+    ],
+    "Endereco": "Av. Rodrigues Alves, 3825 - Jardim Guadalajara, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/2A6ZdL9J4vuoFf6J7",
+    "Telefone": "(14) 3203-0923",
+    "Site": "https://www2.bauru.sp.gov.br/semma/horto.aspx",
+    "Instagram": "@hortobauru",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Gratuito",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "07:00",
+    "FechaSemana": "17:00",
+    "AbreSabado": "07:00",
+    "FechaSabado": "17:00",
+    "AbreDomingo": "07:00",
+    "FechaDomingo": "17:00",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "Esse é o horário da área externa. A área interna (trilhas e Centro de Educação Ambiental) abre de segunda a sexta, das 8h às 16h.",
+    "OQueFazer": [
+      "Caminhar ou correr pelas trilhas na sombra",
+      "Fazer um piquenique no meio das árvores",
+      "Observar pássaros",
+      "Descansar do calor em um lugar fresco",
+      "Treinar corrida em trilha, com subidas e descidas leves",
+      "Levar as crianças para conhecer uma mata de verdade",
+      "Fazer um ensaio de fotos no meio das árvores"
+    ],
+    "Dicas": [
+      "Vá de manhã ou no fim da tarde, quando o lugar fica mais movimentado e seguro.",
+      "Use repelente: por ser mata fechada, tem bastante mosquito.",
+      "Depois da chuva as trilhas ficam com barro, então escolha bem o calçado.",
+      "Leve água: dentro da mata não tem onde comprar nada.",
+      "Avise alguém se for sozinho e prefira os horários de mais movimento.",
+      "Calça leve ajuda contra galhos e mosquitos."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/horto-florestal-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/horto-florestal-2.jpg",
+      "Imagens/Pontos/horto-florestal-3.jpg",
+      "Imagens/Pontos/horto-florestal-4.jpg"
+    ],
+    "Fontes": [
+      "JCNET / Sampi",
+      "Jornal Dois",
+      "Instituto Biológico (artigo sobre Navarro de Andrade)",
+      "Prefeitura de Bauru (horários)"
+    ]
+  },
+  {
+    "Id": 4,
+    "Nome": "Bosque da Comunidade",
+    "Categoria": "Natureza",
+    "Descricao": "O Bosque da Comunidade fica pertinho da região das universidades e é um daqueles lugares que muita gente da cidade nem conhece, mas quem descobre volta sempre. É um bosque pequeno e tranquilo, com trilha no meio das árvores, bancos para sentar e bastante sombra.\n\nPor estar perto das faculdades, é comum ver estudantes passando por lá entre uma aula e outra, gente levando o cachorro para passear e moradores do bairro fazendo caminhada. É um bom lugar para ler, estudar ao ar livre ou simplesmente descansar um pouco.",
+    "Curiosidades": "O nome oficial é Bosque José Guedes de Azevedo, mas todo mundo conhece como Bosque da Comunidade. A história dele começa com um trem: a prefeitura levou para o local uma antiga locomotiva Maria Fumaça, e foi em volta dela que o bosque nasceu.\n\nEm maio de 1979 o prefeito Osvaldo Sbeguen plantou a primeira árvore. A inauguração oficial é citada como 21 de setembro de 1980, o Dia da Árvore.\n\nA locomotiva pertenceu à Estrada de Ferro Noroeste do Brasil, a ferrovia que ajudou Bauru a crescer, e foi tombada como patrimônio em 2001. Ela continua em exposição, e por isso o bosque já foi chamado de \"museu a céu aberto\".",
+    "Ficha": [
+      "Nome oficial: Bosque José Guedes de Azevedo",
+      "Primeira árvore: maio de 1979",
+      "Inauguração: 21 de setembro de 1980",
+      "Atração: locomotiva da Noroeste, tombada em 2001"
+    ],
+    "Endereco": "R. Araújo Leite - Vila Universitária, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/brPKNnDuMokCQJdE9",
+    "Telefone": "",
+    "Site": "",
+    "Instagram": "",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Gratuito",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "07:00",
+    "FechaSemana": "17:30",
+    "AbreSabado": "07:00",
+    "FechaSabado": "17:30",
+    "AbreDomingo": "07:00",
+    "FechaDomingo": "17:30",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "",
+    "OQueFazer": [
+      "Caminhar pela trilha no meio das árvores",
+      "Ler ou estudar ao ar livre",
+      "Passear com o cachorro",
+      "Descansar na sombra entre uma aula e outra",
+      "Fazer uma pausa entre as aulas",
+      "Encontrar os amigos da faculdade em um lugar tranquilo",
+      "Fazer alongamento ou meditação na sombra"
+    ],
+    "Dicas": [
+      "É um ótimo lugar para estudar ao ar livre perto das faculdades.",
+      "Leve repelente nos dias mais quentes e úmidos.",
+      "Fica pertinho das faculdades, então dá para ir a pé entre uma aula e outra.",
+      "De manhã cedo o bosque é bem silencioso, ótimo para quem quer estudar."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/bosque-da-comunidade-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/bosque-da-comunidade-2.jpg",
+      "Imagens/Pontos/bosque-da-comunidade-3.jpg",
+      "Imagens/Pontos/bosque-da-comunidade-4.jpg"
+    ],
+    "Fontes": [
+      "Social Bauru",
+      "IBGE (catálogo)",
+      "Impacto Unesp",
+      "Prefeitura de Bauru (horários)"
+    ]
+  },
+  {
+    "Id": 5,
+    "Nome": "Zoológico Municipal",
+    "Categoria": "Natureza",
+    "Descricao": "Aberto em 1980, o Zoológico Municipal de Bauru é um dos maiores do interior paulista. São cerca de 700 animais de umas 170 espécies, entre primatas brasileiros, felinos, tamanduás, suricatos, camelídeos e muitas aves. O passeio é feito a pé, pelos caminhos entre os recintos, e dá para ver os animais de bem perto.\n\nO zoológico fica ao lado do Jardim Botânico, tem estacionamento gratuito e mesas para piquenique, o que faz dele um programa clássico de fim de semana para famílias com crianças. Também é bastante visitado por escolas, já que muitos animais são da fauna brasileira e o lugar tem um papel importante na educação ambiental.",
+    "Curiosidades": "As obras começaram em 1977 e o zoológico foi inaugurado em 24 de agosto de 1980. No começo eram cerca de 100 animais de 32 espécies, e muitos vieram do zoológico da cidade de Bastos, que tinha sido fechado. A área era a antiga Fazenda Vargem Limpa, a mesma do Jardim Botânico, que fica do lado.\n\nO zoo ficou conhecido no Brasil pela reprodução de espécies ameaçadas de extinção, como o lobo-guará, o mico-leão-dourado e o sauim-de-coleira. Em 2013 ele foi o primeiro zoológico do Brasil a conseguir a reprodução de pinguins.\n\nAlém dos animais do plantel, vivem soltos na mata do zoo bichos nativos como tucano-toco, quati e teiú. O zoológico também está no Google Street View, então dá para fazer uma visita virtual antes de ir. Em 2015, quando completou 35 anos, recebeu uma homenagem da Assembleia Legislativa de São Paulo.",
+    "Ficha": [
+      "Inauguração: 24 de agosto de 1980",
+      "Animais hoje: cerca de 700",
+      "Espécies: cerca de 170",
+      "Primeiro do Brasil a reproduzir pinguins (2013)"
+    ],
+    "Endereco": "Rod. Cmte. João Ribeiro de Barros, km 232 - Vargem Limpa, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/B8RCKz2Y4hG71Wta6",
+    "Telefone": "(14) 3231-2632",
+    "Site": "https://www.zoobauru.com.br/",
+    "Instagram": "@zoobauru",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Confira o valor do ingresso antes de ir.",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "08:00",
+    "FechaSemana": "16:00",
+    "AbreSabado": "08:00",
+    "FechaSabado": "17:00",
+    "AbreDomingo": "08:00",
+    "FechaDomingo": "17:00",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "",
+    "OQueFazer": [
+      "Ver de perto primatas, felinos, tamanduás e suricatos",
+      "Fazer piquenique nas mesas espalhadas pelo parque",
+      "Levar as crianças para conhecer a fauna brasileira",
+      "Emendar com uma visita ao Jardim Botânico, que fica do lado",
+      "Ver as aves de várias espécies",
+      "Conhecer o trabalho de conservação de espécies ameaçadas",
+      "Fazer um passeio de família com as crianças"
+    ],
+    "Dicas": [
+      "Chegue cedo: os animais costumam ficar mais ativos de manhã.",
+      "O estacionamento é gratuito.",
+      "Use roupa leve e leve água, porque o passeio é todo a pé.",
+      "Confirme o horário e o valor pelo telefone (14) 3231-2632 antes de ir.",
+      "Em dias muito quentes os animais ficam mais escondidos; dê preferência ao começo do dia.",
+      "Não alimente os animais: a comida de gente faz mal para eles."
+    ],
+    "LugaresPerto": [
+      2
+    ],
+    "Imagem": "Imagens/Pontos/zoologico-municipal-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/zoologico-municipal-2.jpg",
+      "Imagens/Pontos/zoologico-municipal-3.jpg",
+      "Imagens/Pontos/zoologico-municipal-4.jpg",
+      "Imagens/Pontos/zoologico-municipal-5.jpg",
+      "Imagens/Pontos/zoologico-municipal-6.jpg",
+      "Imagens/Pontos/zoologico-municipal-7.jpg"
+    ],
+    "Fontes": [
+      "Prefeitura de Bauru",
+      "Wikipedia - Parque Zoológico Municipal de Bauru",
+      "Assembleia Legislativa de SP"
+    ]
+  },
+  {
+    "Id": 6,
+    "Nome": "Praça da Paz",
+    "Categoria": "Gastronomia",
+    "Descricao": "A Praça da Paz é um dos pontos de encontro mais animados de Bauru no fim da tarde e à noite. A praça é grande e arborizada, e em volta dela se juntam food trucks, barraquinhas e lanchonetes, então tem opção para todo gosto: lanche, pastel, doce, comida de rua e bebida gelada.\n\nO clima é bem descontraído. As crianças brincam no espaço da praça enquanto os pais comem alguma coisa, e grupos de amigos se reúnem nas mesas. É um bom programa para depois da aula ou do trabalho, principalmente nos dias mais quentes.",
+    "Curiosidades": "O nome da praça vem do monumento que fica nela: uma escultura de bronze do artista José Laranjeira, feita a pedido da prefeitura, que representa o voo de uma pomba, o símbolo da paz. A obra é conhecida como \"Voo da Paz\".\n\nCom o tempo, a praça virou um dos pontos de comida de rua mais conhecidos de Bauru, com trailers e food trucks. Um deles chegou a ser notícia por vender mais de 60 sabores de churros.",
+    "Ficha": [
+      "Monumento: \"Voo da Paz\", de José Laranjeira",
+      "Material: bronze",
+      "Destaque: trailers e food trucks"
+    ],
+    "Endereco": "R. Nicolau Assis, 6-41 - Jardim Panorama, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/wZXPi4xSr5TXQ4kr7",
+    "Telefone": "",
+    "Site": "",
+    "Instagram": "",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Entrada gratuita (a comida é paga à parte)",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "00:00",
+    "FechaSemana": "00:00",
+    "AbreSabado": "00:00",
+    "FechaSabado": "00:00",
+    "AbreDomingo": "00:00",
+    "FechaDomingo": "00:00",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "É uma praça pública. O movimento dos trailers e food trucks é maior no fim da tarde e à noite.",
+    "OQueFazer": [
+      "Comer nos food trucks e barraquinhas",
+      "Encontrar os amigos depois da aula ou do trabalho",
+      "Levar as crianças para brincar na praça",
+      "Experimentar comidas diferentes em um só lugar",
+      "Experimentar um lanche diferente em cada food truck",
+      "Tomar um sorvete ou açaí no fim da tarde",
+      "Marcar o encontro com a turma antes de ir para outro lugar à noite"
+    ],
+    "Dicas": [
+      "O movimento começa no fim da tarde e fica melhor à noite.",
+      "Leve dinheiro e cartão: cada barraquinha tem sua forma de pagamento.",
+      "Nos fins de semana à noite fica bem cheio e pode faltar mesa.",
+      "Vá com fome: dá vontade de experimentar de tudo.",
+      "Tem bastante espaço para as crianças brincarem."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/praca-da-paz-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/praca-da-paz-2.jpg",
+      "Imagens/Pontos/praca-da-paz-3.jpg",
+      "Imagens/Pontos/praca-da-paz-4.jpg"
+    ],
+    "Fontes": [
+      "Arquivo Digital Unesp",
+      "JCNET / Sampi",
+      "Social Bauru"
+    ]
+  },
+  {
+    "Id": 7,
+    "Nome": "Flipper Lanches",
+    "Categoria": "Gastronomia",
+    "Descricao": "O Flipper Lanches é uma das lanchonetes mais conhecidas de Bauru e um dos lugares mais procurados para provar o famoso sanduíche Bauru: pão francês, rosbife, tomate, pepino em conserva e queijo derretido. O lanche ganhou esse nome por causa de um estudante bauruense que pediu essa combinação num bar de São Paulo em 1934, e virou símbolo da cidade.\n\nAlém do Bauru, a casa é bem falada pelos hambúrgueres grandes e caprichados, e muita gente que vai lá elogia a maionese da casa. Fica na Rua Henrique Savi, perto das universidades e do Bauru Shopping, então é parada certa depois da aula ou de um cinema.",
+    "Curiosidades": "O Flipper começou em 1989, na quadra 31 da Avenida Nações Unidas, com Henrique Gobbi. O nome foi inspirado no golfinho Flipper, de um filme de 1963. Em 1998 os sócios Adelar e Carlão assumiram o negócio, e em 2000 a lanchonete foi para a Rua Henrique Savi, onde está até hoje. O lanche mais vendido da casa é o 7B, criado pelo Carlão.\n\nO Flipper também serve o sanduíche Bauru, que tem uma história curiosa: ele não nasceu em Bauru, e sim em São Paulo. A versão mais contada diz que, em 1934, um estudante de Direito chamado Casimiro Pinto Neto, que era de Bauru e tinha o apelido de \"Bauru\", pediu no restaurante Ponto Chic um lanche com pão francês, rosbife, queijo derretido e tomate. O lanche fez sucesso e entrou no cardápio com o apelido dele.\n\nEm 1998 o sanduíche virou patrimônio cultural de Bauru.",
+    "Ficha": [
+      "Início: 1989, na Av. Nações Unidas",
+      "Na Rua Henrique Savi desde: 2000",
+      "Lanche mais vendido: o 7B",
+      "Serve o sanduíche Bauru"
+    ],
+    "Endereco": "R. Henrique Savi, 12-40 - Vila Nova Cidade Universitária, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/QmFEmSUhpg4Pb4iv5",
+    "Telefone": "(14) 3234-2878",
+    "Site": "http://www.flipperlanches.com.br/",
+    "Instagram": "@flipperlanches",
+    "LinkCardapio": "http://www.flipperlanches.com.br/",
+    "LinkLoja": "",
+    "Preco": "Preço de lanchonete. Os valores estão no cardápio.",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "18:00",
+    "FechaSemana": "00:30",
+    "AbreSabado": "18:00",
+    "FechaSabado": "00:30",
+    "AbreDomingo": "18:00",
+    "FechaDomingo": "00:30",
+    "FechadoSegunda": true,
+    "ObservacaoHorario": "A loja abre de terça a domingo. Delivery e drive-in funcionam todos os dias a partir das 17h30. O horário de fechar pode mudar, vale conferir no Instagram.",
+    "OQueFazer": [
+      "Provar o sanduíche Bauru, o lanche símbolo da cidade",
+      "Pedir um dos hambúrgueres da casa",
+      "Experimentar a maionese, que é das mais elogiadas",
+      "Emendar com um passeio no Bauru Shopping, que fica na mesma rua",
+      "Comer o lanche ali mesmo ou pedir para viagem",
+      "Levar quem é de fora para conhecer o sanduíche da cidade",
+      "Fechar a noite depois de um filme no shopping"
+    ],
+    "Dicas": [
+      "Se for a primeira vez em Bauru, peça o sanduíche Bauru: é o clássico da cidade.",
+      "À noite e no fim de semana costuma ter fila, então vá com um pouco de tempo.",
+      "Peça o Bauru do jeito tradicional antes de testar as variações.",
+      "O site da lanchonete tem o cardápio para escolher antes de ir.",
+      "Pelo telefone (14) 3234-2878 dá para confirmar o horário do dia."
+    ],
+    "LugaresPerto": [
+      19
+    ],
+    "Imagem": "Imagens/Pontos/flipper-lanches-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/flipper-lanches-2.jpg",
+      "Imagens/Pontos/flipper-lanches-3.jpg",
+      "Imagens/Pontos/flipper-lanches-4.jpg",
+      "Imagens/Pontos/flipper-lanches-5.jpg"
+    ],
+    "Fontes": [
+      "JCNET / Sampi",
+      "Social Bauru",
+      "Wikipedia - Bauru (sandwich)",
+      "Gazeta SP",
+      "Instagram @flipperlanches / Restaurant Guru (horários)"
+    ]
+  },
+  {
+    "Id": 8,
+    "Nome": "Coisa Boa do Chef Moa",
+    "Categoria": "Gastronomia",
+    "Descricao": "O Coisa Boa do Chef Moa é o lugar para quem quer comida bem feita, com tempero caseiro e prato bem servido. O cardápio tem boa variedade, e entre os pratos mais elogiados estão o gratinado de jaca e a parmegiana. As porções para duas pessoas são generosas, e os sucos e drinks da casa também fazem sucesso.\n\nO ambiente é aconchegante e decorado com plantas, e o próprio Chef Moa costuma circular entre as mesas, o que deixa tudo com cara de casa de amigo. Às terças-feiras ele serve acarajé, uma lembrança da cozinha baiana. Para fechar, vale pedir uma das sobremesas, como o romeu e julieta sem açúcar.",
+    "Curiosidades": "O restaurante é do chef Moacir Santana, o Moa, que nasceu em Lauro de Freitas, na Bahia. A paixão pela cozinha começou de um jeito curioso: quando era criança e morava em um orfanato, ele foi colocado para ajudar na cozinha como castigo, e acabou gostando. Aos 14 anos já trabalhava na padaria do orfanato.\n\nAos 19 ele se formou em Gastronomia pelo Instituto Jorge Amado, em Salvador. Depois veio para o interior de São Paulo, e em 2016 foi finalista do programa \"Que Seja Doce\", do canal GNT.\n\nNo Coisa Boa, o almoço de terça a sexta tem pratos executivos que mudam toda semana. Nos fins de semana entram pratos mais elaborados com camarão, banana e carne de sol, e às terças tem acarajé baiano.",
+    "Ficha": [
+      "Chef: Moacir Santana (Chef Moa)",
+      "Origem do chef: Lauro de Freitas (BA)",
+      "Destaque: acarajé às terças",
+      "Cozinha: brasileira e baiana"
+    ],
+    "Endereco": "R. Monsenhor Claro, 12-64 - Vila Mesquita, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/1132KsZignfEm2zo6",
+    "Telefone": "(14) 3313-8861",
+    "Site": "",
+    "Instagram": "@coisaboadochefmoa",
+    "LinkCardapio": "https://www.instagram.com/coisaboadochefmoa/",
+    "LinkLoja": "",
+    "Preco": "Preço médio de restaurante. As porções para duas pessoas valem a pena.",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "11:30",
+    "FechaSemana": "23:30",
+    "AbreSabado": "11:30",
+    "FechaSabado": "23:30",
+    "AbreDomingo": "11:30",
+    "FechaDomingo": "23:00",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "",
+    "OQueFazer": [
+      "Provar o gratinado de jaca e a parmegiana",
+      "Dividir uma porção para duas pessoas",
+      "Experimentar os sucos e drinks da casa",
+      "Ir numa terça para comer o acarajé do chef",
+      "Terminar com uma sobremesa",
+      "Ir com a família ou com o namorado(a) para um almoço caprichado",
+      "Provar os sucos naturais, como o de manga com maracujá e gengibre",
+      "Conhecer um pouco da cozinha baiana com o acarajé da terça"
+    ],
+    "Dicas": [
+      "Às terças-feiras tem acarajé.",
+      "Chegando mais tarde no horário do almoço, a espera por mesa costuma ser menor.",
+      "O restaurante abre todos os dias a partir das 11h30.",
+      "Siga o Instagram @coisaboadochefmoa para ver o cardápio e os pratos do dia.",
+      "Para grupos grandes, vale ligar antes no (14) 3313-8861."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/coisa-boa-do-chef-moa-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/coisa-boa-do-chef-moa-2.jpg",
+      "Imagens/Pontos/coisa-boa-do-chef-moa-3.jpg",
+      "Imagens/Pontos/coisa-boa-do-chef-moa-4.jpg",
+      "Imagens/Pontos/coisa-boa-do-chef-moa-5.jpg"
+    ],
+    "Fontes": [
+      "JCNET / Sampi",
+      "Social Bauru",
+      "Tripadvisor"
+    ]
+  },
+  {
+    "Id": 9,
+    "Nome": "Agustina Parrilla e Bar",
+    "Categoria": "Gastronomia",
+    "Descricao": "O Agustina Parrilla e Bar é uma casa de carnes no estilo argentino, com cortes preparados na parrilla, a grelha tradicional da Argentina e do Uruguai. Entre os pratos mais elogiados estão o bife ancho, o risoto de queijo com baby beef e as entradas, como o pão de alho e o bolinho de risoto. Para fechar, a panqueca de doce de leite e o alfajor da casa fazem sucesso.\n\nO ambiente é aconchegante e costuma encher à noite, principalmente no fim de semana, então é uma boa pedida para comemorar aniversário ou sair a dois. De terça a sexta tem almoço executivo, uma forma mais em conta de conhecer a casa. Fica na Avenida Comendador José da Silva Martha, uma das ruas com mais bares e restaurantes da cidade.",
+    "Curiosidades": "O Agustina faz parte do Grupo Carmelina, o mesmo do Filipa Bistrô e das lojas Carmelina. A proposta é trazer a comida e o clima da Argentina para Bauru.\n\nO destaque são os cortes de carne feitos na parrilla, a grelha típica argentina. Também tem receitas tradicionais do país vizinho, como o choripán (pão com linguiça), a morcilla (um tipo de chouriço) e, de sobremesa, o alfajor.",
+    "Ficha": [
+      "Cozinha: argentina",
+      "Grupo: Carmelina",
+      "Pratos típicos: choripán, morcilla e alfajor"
+    ],
+    "Endereco": "Av. Comendador José da Silva Martha, 3-40 - Jardim Estoril, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/2UaZ7KXwiSedH6Jo7",
+    "Telefone": "(14) 3223-8816",
+    "Site": "http://www.agustina.com.br/",
+    "Instagram": "@mundo.agustina",
+    "LinkCardapio": "http://www.agustina.com.br/",
+    "LinkLoja": "",
+    "Preco": "Preço de casa de carnes. Os valores estão no cardápio.",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "18:30",
+    "FechaSemana": "23:30",
+    "AbreSabado": "18:30",
+    "FechaSabado": "00:00",
+    "AbreDomingo": "12:00",
+    "FechaDomingo": "16:00",
+    "FechadoSegunda": true,
+    "ObservacaoHorario": "Almoço de terça a sexta, das 11h30 às 15h, e no sábado, das 12h às 16h. Sexta à noite vai até meia-noite.",
+    "OQueFazer": [
+      "Pedir um corte na parrilla para dividir",
+      "Experimentar os drinks da casa",
+      "Comemorar aniversário ou sair com a turma",
+      "Conhecer outros bares da mesma avenida",
+      "Almoçar no executivo de terça a sexta",
+      "Pedir as entradas, como o pão de alho e o bolinho de risoto",
+      "Provar o risoto de queijo com baby beef ou o bife ancho",
+      "Terminar com a panqueca de doce de leite ou o alfajor da casa"
+    ],
+    "Dicas": [
+      "Os cortes costumam ser bem servidos: vale dividir.",
+      "Fecha às segundas-feiras.",
+      "O almoço executivo, de terça a sexta, é a forma mais em conta de conhecer a casa.",
+      "Para reservar, ligue no (14) 3223-8816.",
+      "O Instagram @mundo.agustina mostra o cardápio e os eventos.",
+      "No fim de semana à noite o lugar enche, então reservar ajuda."
+    ],
+    "LugaresPerto": [
+      11
+    ],
+    "Imagem": "Imagens/Pontos/agustina-parrilla-e-bar-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/agustina-parrilla-e-bar-2.jpg",
+      "Imagens/Pontos/agustina-parrilla-e-bar-3.jpg",
+      "Imagens/Pontos/agustina-parrilla-e-bar-4.jpg"
+    ],
+    "Fontes": [
+      "Social Bauru"
+    ]
+  },
+  {
+    "Id": 10,
+    "Nome": "Terrazzo Cucina",
+    "Categoria": "Gastronomia",
+    "Descricao": "O Terrazzo Cucina é um restaurante italiano que fica no terraço do Hotel Tulip Inn, com uma vista bonita da cidade. Os pratos foram criados por chefs que trabalham em restaurantes italianos de São Paulo, e a carta de drinks tem opções clássicas e autorais. O restaurante é da mesma equipe do Restaurante da Hípica.\n\nO ambiente é mais arrumado e tranquilo, então combina com ocasiões especiais: um jantar a dois, uma comemoração em família ou um almoço de domingo. Abre de terça a sábado à noite e no domingo na hora do almoço.",
+    "Curiosidades": "O Terrazzo fica no terraço do Hotel Tulip Inn, com vista para o pôr do sol, e foi criado pelos mesmos administradores do restaurante da Hípica de Bauru.\n\nOs pratos são criados por chefs que trabalham em restaurantes italianos de São Paulo, e o chef à frente da cozinha é Thiago Omena. O restaurante também faz jantares especiais, como o \"Notte di Cucina\", com chefs convidados, e o \"Amore al Terrazzo\", um jantar harmonizado com vinhos.",
+    "Ficha": [
+      "Cozinha: italiana",
+      "Local: terraço do Hotel Tulip Inn",
+      "Chef: Thiago Omena"
+    ],
+    "Endereco": "R. Eng. Alpheu José Ribas Sampaio, 1-23 (terraço do Hotel Tulip Inn) - Jardim Infante Dom Henrique, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/ygobxKY643fenpaq7",
+    "Telefone": "(14) 99181-0154",
+    "Site": "",
+    "Instagram": "@terrazzocucina",
+    "LinkCardapio": "https://www.instagram.com/terrazzocucina/",
+    "LinkLoja": "",
+    "Preco": "Preço de restaurante italiano. Os valores estão no cardápio.",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "18:00",
+    "FechaSemana": "23:00",
+    "AbreSabado": "18:00",
+    "FechaSabado": "23:00",
+    "AbreDomingo": "11:00",
+    "FechaDomingo": "15:00",
+    "FechadoSegunda": true,
+    "ObservacaoHorario": "Fica no terraço do Hotel Tulip Inn, com entrada pela lateral.",
+    "OQueFazer": [
+      "Jantar a dois em um ambiente tranquilo",
+      "Comemorar uma data especial",
+      "Provar as massas e pratos italianos",
+      "Jantar no terraço com vista da cidade",
+      "Provar os drinks clássicos e autorais da casa",
+      "Ir no almoço de domingo com a família"
+    ],
+    "Dicas": [
+      "Abre de terça a sábado à noite e no domingo no almoço. Fecha às segundas.",
+      "Para jantar a dois, peça uma mesa perto da vista.",
+      "Reservas e informações pelo (14) 99181-0154 ou pelo Instagram @terrazzocucina."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/terrazzo-cucina-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/terrazzo-cucina-2.jpg",
+      "Imagens/Pontos/terrazzo-cucina-3.jpg",
+      "Imagens/Pontos/terrazzo-cucina-4.jpg"
+    ],
+    "Fontes": [
+      "Social Bauru"
+    ]
+  },
+  {
+    "Id": 11,
+    "Nome": "Dona Baunilha",
+    "Categoria": "Gastronomia",
+    "Descricao": "A Dona Baunilha é uma doceria e cafeteria com vitrine cheia de bolos, tortas e doces, além de salgados e cafés. Um dos itens mais elogiados é o brownie com sorvete, e os doces são caprichados. Funciona todos os dias, das 8h às 20h, então serve tanto para o café da manhã quanto para um lanche da tarde.\n\nÉ aquele tipo de lugar em que você entra para comprar uma coisa e sai com três. Também faz encomendas de doces e salgados para festas. Fica na Avenida Comendador José da Silva Martha, então dá para combinar com um jantar em algum restaurante da mesma avenida e fechar a noite com a sobremesa por lá.",
+    "Curiosidades": "A Dona Baunilha começou com uma confeiteira chamada Roberta, que fazia bolos e cupcakes para o café do irmão e vendia doces feitos em casa. Depois de tentar um food truck que não deu certo, ela abriu a primeira loja em 2017, em Barretos (SP). A marca cresceu e virou uma rede com mais de 20 lojas.\n\nA unidade de Bauru foi aberta em 2021 pelos sócios Vera Tobias e Guilherme Lopes. Antes de abrir, eles viajaram até Araraquara para conhecer e \"testar\" uma loja da rede.",
+    "Ficha": [
+      "Marca criada: 2017, em Barretos (SP)",
+      "Em Bauru desde: 2021",
+      "Rede: mais de 20 lojas"
+    ],
+    "Endereco": "Av. Comendador José da Silva Martha, 7-08 - Jardim Estoril, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/c89ovbUxTSLHVrDm9",
+    "Telefone": "(14) 99904-3850",
+    "Site": "https://donabaunilhabauru.com.br/dona_baunilha_bauru",
+    "Instagram": "@donabaunilha.bauru",
+    "LinkCardapio": "https://donabaunilhabauru.com.br/dona_baunilha_bauru",
+    "LinkLoja": "",
+    "Preco": "Preço de cafeteria. Os valores estão no cardápio.",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "08:00",
+    "FechaSemana": "20:00",
+    "AbreSabado": "08:00",
+    "FechaSabado": "20:00",
+    "AbreDomingo": "08:00",
+    "FechaDomingo": "20:00",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "",
+    "OQueFazer": [
+      "Tomar um café da tarde com bolo ou torta",
+      "Levar doces para uma festa ou para casa",
+      "Provar os salgados da casa",
+      "Fechar a noite com uma sobremesa depois do jantar",
+      "Provar o brownie com sorvete, um dos doces mais elogiados",
+      "Escolher salgados para um lanche rápido",
+      "Encomendar doces e salgados para festas"
+    ],
+    "Dicas": [
+      "O fim da tarde é o melhor horário para ir com calma.",
+      "Para festas, vale encomendar o bolo com antecedência.",
+      "Abre todos os dias, das 8h às 20h, então também serve para um café da manhã.",
+      "Para encomendas, chame no (14) 99904-3850.",
+      "Os doces são caprichados e alguns custam um pouco mais, mas valem a pena."
+    ],
+    "LugaresPerto": [
+      9
+    ],
+    "Imagem": "Imagens/Pontos/dona-baunilha-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/dona-baunilha-2.jpg",
+      "Imagens/Pontos/dona-baunilha-3.jpg",
+      "Imagens/Pontos/dona-baunilha-4.jpg"
+    ],
+    "Fontes": [
+      "Dona Baunilha (site de franquias)",
+      "Projeto Draft",
+      "Social Bauru"
+    ]
+  },
+  {
+    "Id": 12,
+    "Nome": "Teatro Municipal Celina Lourdes Alves Neves",
+    "Categoria": "Lazer e Cultura",
+    "Descricao": "O Teatro Municipal Celina Lourdes Alves Neves é o principal teatro de Bauru e recebe uma programação variada ao longo do ano: peças, espetáculos de dança, shows de música, apresentações de escolas e festivais da cidade. É um espaço importante para os artistas da região e para quem gosta de cultura.\n\nMuitas apresentações são gratuitas ou têm ingresso barato, então vale ficar de olho na agenda cultural da prefeitura. O teatro fica na Avenida Nações Unidas, a mesma do Parque Vitória Régia, o que permite juntar um passeio no parque com um espetáculo à noite.",
+    "Curiosidades": "Em 1994 o prefeito Antônio Tidei de Lima decidiu que o prédio viraria o Centro Cultural e o Teatro Municipal de Bauru. O teatro foi inaugurado em abril de 2000, na gestão do prefeito Nilson Costa, com projeto dos arquitetos Maurício Queiroz Costa e Edward Albiero.\n\nO nome homenageia Celina Lourdes Alves Neves, professora e escritora nascida em Taquaritinga. Ela dirigiu a Escola Progresso por 42 anos, criou o Grupo de Teatro Gil Vicente, fundou a Federação de Teatro Amador de Bauru e foi a primeira presidente da Academia Bauruense de Letras.\n\nEm maio de 2025 o teatro foi reinaugurado depois de uma reforma de mais de 5 milhões de reais, que trouxe ar-condicionado, som, iluminação, cortinas e poltronas novas.",
+    "Ficha": [
+      "Inauguração: abril de 2000",
+      "Arquitetos: Maurício Queiroz Costa e Edward Albiero",
+      "Reinauguração: maio de 2025, após reforma",
+      "Homenageada: Celina Lourdes Alves Neves"
+    ],
+    "Endereco": "Av. Nações Unidas, Quadra 8 - Centro, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/Hmfq5kdnJpEHF8g88",
+    "Telefone": "",
+    "Site": "",
+    "Instagram": "",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Muitas apresentações são gratuitas (com retirada de ingresso). Nos espetáculos pagos, estudantes costumam pagar meia-entrada. O valor depende de cada evento.",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "",
+    "FechaSemana": "",
+    "AbreSabado": "",
+    "FechaSabado": "",
+    "AbreDomingo": "",
+    "FechaDomingo": "",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "O teatro abre conforme a programação de espetáculos, então não tem horário fixo. A bilheteria costuma abrir cerca de 1 hora antes de cada evento. Informações na Secretaria de Cultura: (14) 3235-1177.",
+    "OQueFazer": [
+      "Assistir a peças de teatro e espetáculos de dança",
+      "Ir a shows de música",
+      "Prestigiar apresentações de escolas e artistas da região",
+      "Juntar o passeio com uma tarde no Parque Vitória Régia",
+      "Conferir a programação de festivais e mostras de teatro da cidade",
+      "Ver apresentações de fim de ano de escolas de dança e música",
+      "Levar as crianças para espetáculos infantis"
+    ],
+    "Dicas": [
+      "Acompanhe a agenda cultural da prefeitura para saber o que está em cartaz.",
+      "Em eventos gratuitos, chegue cedo: os lugares costumam acabar rápido.",
+      "Muitos eventos têm entrada gratuita mediante retirada de ingresso antes: chegue cedo.",
+      "Estudantes costumam pagar meia-entrada nos espetáculos pagos; leve a carteirinha.",
+      "Fica na mesma avenida do Parque Vitória Régia."
+    ],
+    "LugaresPerto": [
+      1
+    ],
+    "Imagem": "Imagens/Pontos/teatro-municipal-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/teatro-municipal-2.jpg",
+      "Imagens/Pontos/teatro-municipal-3.jpg",
+      "Imagens/Pontos/teatro-municipal-4.jpg"
+    ],
+    "Fontes": [
+      "Prefeitura de Bauru",
+      "JCNET / Sampi",
+      "Social Bauru",
+      "Viação Garcia / Solutudo (horários)"
+    ]
+  },
+  {
+    "Id": 13,
+    "Nome": "Catedral do Divino Espírito Santo",
+    "Categoria": "Lazer e Cultura",
+    "Descricao": "A Catedral do Divino Espírito Santo é a igreja matriz de Bauru e fica na Praça Rui Barbosa, bem no coração do centro. É um dos prédios mais marcantes da região central e um ponto de referência para quem anda pela cidade.\n\nMesmo para quem não é religioso, a visita vale pela arquitetura e pela história, já que a catedral acompanha o crescimento de Bauru há muitas décadas. A praça em volta também é ponto de encontro, e fica perto do Calçadão da Batista, então dá para encaixar a visita num passeio pelo centro.",
+    "Curiosidades": "A história da catedral se mistura com a da própria cidade. Em 1884, Antônio Teixeira do Espírito Santo doou terras ao Divino Espírito Santo, e foi em volta dessas terras, com uma capela no centro, que Bauru começou a crescer.\n\nEntre 1911 e 1916 a antiga capela foi demolida e reconstruída. Hoje a igreja é a catedral e a sede da Diocese de Bauru, e a Praça Rui Barbosa, na frente dela, é considerada a primeira praça da cidade.",
+    "Ficha": [
+      "Origem: doação de terras em 1884",
+      "Reconstrução da capela: 1911 a 1916",
+      "Sede da Diocese de Bauru"
+    ],
+    "Endereco": "Praça Rui Barbosa, 3-30 - Centro, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/RfEcbMJvni2FfkdP7",
+    "Telefone": "(14) 3222-3166",
+    "Site": "https://diocesedebauru.com.br/paroquias/catedral-do-divino-espirito-santo/",
+    "Instagram": "",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Gratuito",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "",
+    "FechaSemana": "",
+    "AbreSabado": "",
+    "FechaSabado": "",
+    "AbreDomingo": "",
+    "FechaDomingo": "",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "Missas\nSegunda a sexta: 7h30 e 18h30\nSábado: 7h30 e 19h\nDomingo: 7h30, 10h e 19h\n\nSecretaria\nSegunda, quarta, quinta e sexta: 8h às 18h30\nTerça: 8h às 17h30\nSábado: 8h às 12h",
+    "OQueFazer": [
+      "Conhecer a arquitetura da catedral",
+      "Assistir a uma missa",
+      "Passear pela Praça Rui Barbosa",
+      "Emendar com uma volta no Calçadão da Batista",
+      "Visitar nas festas religiosas da cidade, quando a praça fica decorada",
+      "Tirar fotos da fachada e da praça",
+      "Fazer um roteiro a pé pelo centro histórico"
+    ],
+    "Dicas": [
+      "Durante as missas, faça silêncio e evite tirar fotos com flash.",
+      "Aproveite para conhecer o centro a pé: o Calçadão fica pertinho.",
+      "Use roupas adequadas para entrar na igreja.",
+      "Em dias de missa a catedral fica cheia, então visite fora desses horários se quiser conhecer com calma."
+    ],
+    "LugaresPerto": [
+      18
+    ],
+    "Imagem": "Imagens/Pontos/catedral-divino-espirito-santo-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/catedral-divino-espirito-santo-2.jpg",
+      "Imagens/Pontos/catedral-divino-espirito-santo-3.jpg",
+      "Imagens/Pontos/catedral-divino-espirito-santo-4.jpg"
+    ],
+    "Fontes": [
+      "Unisagrado (Encontro de Pesquisa em História)",
+      "GCatholic",
+      "JCNET / Sampi",
+      "Diocese de Bauru (horários)"
+    ]
+  },
+  {
+    "Id": 14,
+    "Nome": "SESC Bauru",
+    "Categoria": "Lazer e Cultura",
+    "Descricao": "O SESC Bauru é um dos espaços de lazer e cultura mais completos da cidade. Tem quadras, área de convivência, exposições, shows, cursos e oficinas, e quase tudo tem preço baixo ou é de graça. A programação muda todo mês e tem atividade para todas as idades, de criança a terceira idade.\n\nÉ um ótimo lugar para descobrir coisas novas: um dia pode ter show de música, no outro uma exposição de arte, uma oficina de fotografia ou uma atividade esportiva. Quem tem a credencial do SESC paga ainda menos em várias atividades.",
+    "Curiosidades": "O Sesc chegou a Bauru em 1949, funcionando em um imóvel alugado na Rua Primeiro de Agosto. Depois passou para um prédio próprio junto ao Senac, na Avenida Nações Unidas.\n\nA sede atual, na Vila Cardia, foi inaugurada em 24 de maio de 1977 com o nome de Centro Cultural e Desportivo Adolpho Simão Rasi. Na época, as unidades do Sesc tinham nomes de empresários do comércio; hoje todas usam só a sigla Sesc.\n\nSão quase 18 mil metros quadrados construídos, com quadras, piscina, áreas de convivência e espaços para shows e exposições.",
+    "Ficha": [
+      "Em Bauru desde: 1949",
+      "Sede atual: 24 de maio de 1977",
+      "Área construída: cerca de 17,7 mil m²"
+    ],
+    "Endereco": "Av. Aureliano Cardia, 6-71 - Vila Cardia, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/yqreui6BkoCDwjYZ8",
+    "Telefone": "(14) 3235-1750",
+    "Site": "https://www.sescsp.org.br/unidades/bauru/",
+    "Instagram": "@sescbauru",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "A maior parte da programação é gratuita. Nos shows e espetáculos pagos, os ingressos ficam entre R$ 12 e R$ 40, dependendo da credencial (valores da programação de maio de 2026).",
+    "IngressoAPartirDe": "R$ 12",
+    "AbreSemana": "13:00",
+    "FechaSemana": "21:30",
+    "AbreSabado": "10:00",
+    "FechaSabado": "18:30",
+    "AbreDomingo": "10:00",
+    "FechaDomingo": "18:30",
+    "FechadoSegunda": true,
+    "ObservacaoHorario": "Em feriados, das 10h às 18h30.",
+    "OQueFazer": [
+      "Ver shows, peças e exposições",
+      "Fazer cursos e oficinas",
+      "Praticar esportes nas quadras",
+      "Passar a tarde na área de convivência",
+      "Levar as crianças nas atividades da programação infantil",
+      "Ir a um show pago por um preço bem mais barato que o normal",
+      "Ver filmes e apresentações na programação gratuita",
+      "Comer na comedoria, a lanchonete do SESC",
+      "Participar de atividades para a terceira idade e para as crianças"
+    ],
+    "Dicas": [
+      "Com a credencial do SESC muitas atividades ficam mais baratas.",
+      "Abre de terça a sexta, das 13h às 21h30, e aos sábados, domingos e feriados, das 10h às 18h30. Fecha às segundas.",
+      "Nos shows pagos, quem tem a Credencial Plena paga o menor valor.",
+      "A programação de cada mês sai no site do SESC: vale olhar logo no começo do mês.",
+      "Telefone: (14) 3235-1750."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/sesc-bauru-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/sesc-bauru-2.jpg",
+      "Imagens/Pontos/sesc-bauru-3.jpg"
+    ],
+    "Fontes": [
+      "Sesc São Paulo",
+      "Wikipedia - Sesc Bauru",
+      "Social Bauru"
+    ]
+  },
+  {
+    "Id": 15,
+    "Nome": "Ginásio SESI Vôlei Paulo Skaf",
+    "Categoria": "Lazer e Cultura",
+    "Descricao": "O Ginásio SESI Vôlei Paulo Skaf é a casa do time de vôlei feminino do SESI Bauru, que disputa a Superliga, a principal competição de vôlei do Brasil. Em dia de jogo grande a arquibancada lota, a torcida canta o jogo inteiro e o barulho dentro do ginásio impressiona.\n\nPara quem gosta de esporte, assistir a uma partida lá é programa garantido, e mesmo quem não acompanha vôlei costuma sair empolgado. É uma boa chance de ver de perto atletas de alto nível jogando a principal liga do país.",
+    "Curiosidades": "O ginásio é a casa do Sesi Vôlei Bauru, time feminino que surgiu da união do Vôlei Bauru com o Sesi-SP, na temporada 2018/2019.\n\nEm 2022 a equipe ganhou a Copa Brasil de vôlei feminino, um título inédito para o clube, e também conquistou a Supercopa vencendo o Minas. Na temporada 2024/25 chegou pela primeira vez à final da Superliga, o principal campeonato do país.",
+    "Ficha": [
+      "Time: Sesi Vôlei Bauru (feminino)",
+      "Origem: Vôlei Bauru + Sesi-SP (2018/19)",
+      "Títulos: Copa Brasil 2022 e Supercopa"
+    ],
+    "Endereco": "R. Profa. Zenita Alcântara Nogueira, 1-67 - Vila Triagem, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/gSugV2nhUWKAawF78",
+    "Telefone": "",
+    "Site": "",
+    "Instagram": "@sesivoleibauru",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "O valor muda a cada jogo e é divulgado pelo time antes da partida. Estudantes costumam pagar meia-entrada.",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "",
+    "FechaSemana": "",
+    "AbreSabado": "",
+    "FechaSabado": "",
+    "AbreDomingo": "",
+    "FechaDomingo": "",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "O ginásio abre em dias de jogo e de eventos. Os horários das partidas são divulgados pelo time no Instagram @sesivoleibauru.",
+    "OQueFazer": [
+      "Assistir a um jogo da Superliga de vôlei feminino",
+      "Torcer junto com a arquibancada",
+      "Ver de perto atletas de alto nível",
+      "Levar a família para o primeiro jogo de vôlei ao vivo",
+      "Fazer cartazes e torcer junto com a arquibancada",
+      "Assistir aos jogos do Campeonato Paulista e da Superliga"
+    ],
+    "Dicas": [
+      "Em jogos decisivos os ingressos acabam rápido, então compre com antecedência.",
+      "Chegue antes do início para pegar um bom lugar.",
+      "Os ingressos costumam ser divulgados nas redes do time alguns dias antes de cada jogo.",
+      "Em jogo grande, chegue com antecedência para não pegar fila."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/ginasio-sesi-volei-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/ginasio-sesi-volei-2.jpg",
+      "Imagens/Pontos/ginasio-sesi-volei-3.jpg",
+      "Imagens/Pontos/ginasio-sesi-volei-4.jpg"
+    ],
+    "Fontes": [
+      "Gazeta Esportiva",
+      "Lance!",
+      "Diário do Pará"
+    ]
+  },
+  {
+    "Id": 16,
+    "Nome": "Estádio Alfredo de Castilho",
+    "Categoria": "Lazer e Cultura",
+    "Descricao": "O Estádio Alfredo de Castilho, o Alfredão, é a casa do Noroeste, o time de futebol mais tradicional de Bauru, conhecido pela torcida como Norusca. Inaugurado em 1960, ele tem capacidade para quase 19 mil pessoas e guarda um recorde histórico: em 1974, mais de 23 mil torcedores lotaram as arquibancadas num jogo contra o Palmeiras.\n\nEm dia de partida, a torcida norusca se reúne para empurrar o time, e o clima de futebol de interior, com família e amigos na arquibancada, é bem diferente do de um grande estádio de capital. Vale acompanhar a tabela do campeonato para saber quando o Noroeste joga em casa.",
+    "Curiosidades": "O Noroeste foi fundado em 1º de setembro de 1910 por funcionários da Estrada de Ferro Noroeste do Brasil, a ferrovia que deu o nome ao time. A torcida do Noroeste é chamada de \"norusca\".\n\nO Estádio Alfredo de Castilho foi inaugurado em 5 de junho de 1960 e tem capacidade para cerca de 18 mil pessoas. Em 1986 ele foi comprado pelo próprio Noroeste.",
+    "Ficha": [
+      "Clube: Esporte Clube Noroeste (fundado em 1910)",
+      "Inauguração: 5 de junho de 1960",
+      "Capacidade: cerca de 18 mil pessoas"
+    ],
+    "Endereco": "R. Wenceslau Braz - Vila Santa Terezinha, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/6x8n9cNZkwYKEvKN6",
+    "Telefone": "",
+    "Site": "",
+    "Instagram": "@ecnoroeste",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "O valor muda a cada jogo e é divulgado pelo Noroeste antes da partida. O clube às vezes faz promoções de meia-entrada para todos.",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "",
+    "FechaSemana": "",
+    "AbreSabado": "",
+    "FechaSabado": "",
+    "AbreDomingo": "",
+    "FechaDomingo": "",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "O estádio abre em dias de jogo. Os horários das partidas são divulgados pelo Noroeste no Instagram @ecnoroeste.",
+    "OQueFazer": [
+      "Assistir a um jogo do Noroeste",
+      "Sentir o clima de futebol de interior na arquibancada",
+      "Conhecer um pedaço da história esportiva de Bauru",
+      "Conhecer o Alfredão, um dos estádios mais tradicionais do interior paulista",
+      "Vestir as cores do Noroeste e cantar com a torcida",
+      "Assistir a um clássico regional contra times da região"
+    ],
+    "Dicas": [
+      "Acompanhe a tabela do campeonato para saber quando o Noroeste joga em casa.",
+      "Chegue cedo em jogos importantes.",
+      "Em promoções, o Noroeste já fez ações como \"todos pagam meia\": fique de olho nas redes do clube.",
+      "Leve protetor solar em jogos à tarde.",
+      "Os ingressos costumam ser vendidos online e nas bilheterias do estádio."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/estadio-alfredo-de-castilho-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/estadio-alfredo-de-castilho-2.jpg",
+      "Imagens/Pontos/estadio-alfredo-de-castilho-3.jpg"
+    ],
+    "Fontes": [
+      "Wikipedia - Esporte Clube Noroeste",
+      "Wikipedia - Estádio Alfredo de Castilho"
+    ]
+  },
+  {
+    "Id": 17,
+    "Nome": "Ginásio Panela de Pressão",
+    "Categoria": "Lazer e Cultura",
+    "Descricao": "O Ginásio Panela de Pressão tem esse nome por um bom motivo: ele é pequeno, cabe cerca de 2 mil pessoas, e a torcida fica colada na quadra. Quando o jogo esquenta, o barulho é tanto que parece que o ginásio vai explodir.\n\nÉ a casa do Bauru Basket, time que já foi campeão do NBB, o principal campeonato de basquete do Brasil. Assistir a um jogo lá é uma das experiências esportivas mais intensas da cidade, e mesmo quem não entende muito de basquete sai de lá torcendo.",
+    "Curiosidades": "O apelido \"Panela de Pressão\" combina com o clima do ginásio: ele é pequeno, cabe cerca de 2 mil pessoas, e a torcida fica bem perto da quadra. O ginásio já passou por reforma e manteve o nome famoso.\n\nÉ a casa do Bauru Basket, que foi campeão brasileiro em 2002 (na época com o nome Tilibra). A fase de ouro veio na década de 2010: em 2014 o time ganhou a Liga Sul-Americana e, logo depois, a Liga das Américas. Na temporada 2016/17 conquistou o primeiro título do NBB, vencendo o Paulistano na final.",
+    "Ficha": [
+      "Time: Bauru Basket",
+      "Capacidade: cerca de 2 mil pessoas",
+      "Títulos: NBB 2016/17 e Liga das Américas"
+    ],
+    "Endereco": "R. Benedito Eleutério - Vila Industrial, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/zHy92D8o1Yy6L32b7",
+    "Telefone": "",
+    "Site": "https://baurubasket.com.br/",
+    "Instagram": "@baurubasket",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Arquibancada a partir de R$ 15, cadeiras numeradas por R$ 70 e cadeiras de quadra por R$ 90 (valores de um jogo do NBB em 2025). O preço pode mudar conforme o jogo.",
+    "IngressoAPartirDe": "R$ 15",
+    "AbreSemana": "",
+    "FechaSemana": "",
+    "AbreSabado": "",
+    "FechaSabado": "",
+    "AbreDomingo": "",
+    "FechaDomingo": "",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "O ginásio abre em dias de jogo. Os horários das partidas são divulgados pelo Bauru Basket no Instagram @baurubasket.",
+    "OQueFazer": [
+      "Assistir a um jogo do Bauru Basket",
+      "Sentir a pressão da torcida colada na quadra",
+      "Ver de perto um dos times mais tradicionais do basquete brasileiro",
+      "Assistir a um jogo de playoff, quando o ginásio fica no limite",
+      "Levar a camisa do Bauru e entrar no clima",
+      "Ver de perto as jogadas e enterradas, já que a quadra é bem próxima"
+    ],
+    "Dicas": [
+      "Como o ginásio é pequeno, os ingressos para jogos grandes acabam rápido.",
+      "Vista as cores do time e chegue cedo para entrar no clima.",
+      "Os ingressos de arquibancada são os mais baratos e acabam primeiro.",
+      "Em alguns jogos o time pede 1 kg de alimento não perecível na entrada, para doação.",
+      "Chegue cedo: o ginásio é pequeno e os melhores lugares enchem rápido."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/ginasio-panela-de-pressao-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/ginasio-panela-de-pressao-2.jpg",
+      "Imagens/Pontos/ginasio-panela-de-pressao-3.jpg",
+      "Imagens/Pontos/ginasio-panela-de-pressao-4.jpg"
+    ],
+    "Fontes": [
+      "Wikipedia - Bauru Basket",
+      "Gazeta Esportiva",
+      "FIBA"
+    ]
+  },
+  {
+    "Id": 18,
+    "Nome": "Calçadão da Batista",
+    "Categoria": "Compras",
+    "Descricao": "A Rua Batista de Carvalho virou calçadão em 1992 e desde então é o centro do comércio de rua de Bauru. São vários quarteirões só para pedestres, com lojas de roupa, sapato, eletrônicos, instrumentos musicais, óticas, lanchonetes e de tudo um pouco.\n\nO calçadão faz tanto parte da rotina da cidade que o bauruense até inventou um verbo para isso: batistar, que é ir dar uma volta no calçadão. Vale ir para fazer compras, comparar preços ou simplesmente andar e ver o movimento do centro, que é bem animado durante o dia.",
+    "Curiosidades": "A Rua Batista de Carvalho foi criada em 1920, por causa da chegada da estação da Estrada de Ferro Noroeste do Brasil. No começo ela era uma rua de casas, onde moravam trabalhadores da ferrovia.\n\nA partir de 1930 o comércio foi tomando conta e a rua virou ponto de encontro e de passeio da cidade. Em 1992 ela foi fechada para os carros e virou o calçadão. O bauruense gosta tanto de passear por lá que até inventou um verbo: \"batistar\".",
+    "Ficha": [
+      "Rua criada: 1920",
+      "Comércio a partir de: 1930",
+      "Calçadão desde: 1992",
+      "Gíria local: \"batistar\""
+    ],
+    "Endereco": "R. Batista de Carvalho - Centro, Bauru - SP, 17012-150",
+    "LinkMaps": "https://maps.app.goo.gl/WWwcN5YmsNGk5bZj8",
+    "Telefone": "",
+    "Site": "https://sites.bauru.sp.gov.br/calcadao/",
+    "Instagram": "",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Gratuito (passeio a pé)",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "09:00",
+    "FechaSemana": "18:00",
+    "AbreSabado": "09:00",
+    "FechaSabado": "18:00",
+    "AbreDomingo": "",
+    "FechaDomingo": "",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "Esse é o horário do comércio. A rua em si fica aberta o tempo todo, e algumas lojas (como farmácias) têm horário próprio.",
+    "OQueFazer": [
+      "Fazer compras e comparar preços nas lojas de rua",
+      "Batistar: dar aquela volta pelo calçadão",
+      "Comer um lanche nas lanchonetes do centro",
+      "Emendar com uma visita à Catedral, que fica pertinho",
+      "Procurar promoções nas lojas de roupa e calçado",
+      "Comprar presentes e lembrancinhas",
+      "Fazer um roteiro a pé pelo centro, passando pela Catedral"
+    ],
+    "Dicas": [
+      "O movimento é maior em dia de semana, no horário comercial.",
+      "Aos domingos a maioria das lojas fica fechada.",
+      "Fique atento aos seus pertences, como em todo centro movimentado.",
+      "Pesquise preços em mais de uma loja: no calçadão a concorrência é grande.",
+      "Datas como Natal e Dia das Mães deixam o calçadão bem cheio.",
+      "Use calçado confortável, porque é um passeio a pé."
+    ],
+    "LugaresPerto": [
+      13
+    ],
+    "Imagem": "Imagens/Pontos/calcadao-da-batista-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/calcadao-da-batista-2.jpg",
+      "Imagens/Pontos/calcadao-da-batista-3.jpg",
+      "Imagens/Pontos/calcadao-da-batista-4.jpg"
+    ],
+    "Fontes": [
+      "Repositório Unesp (dissertação sobre a Rua Batista de Carvalho)",
+      "Revista Vértice",
+      "Prefeitura de Bauru - site do Calçadão (horários)"
+    ]
+  },
+  {
+    "Id": 19,
+    "Nome": "Bauru Shopping",
+    "Categoria": "Compras",
+    "Descricao": "O Bauru Shopping é o shopping mais conhecido da cidade e fica na Rua Henrique Savi, pertinho das universidades. Tem lojas de departamento, marcas conhecidas, cinema, praça de alimentação e serviços, então dá para resolver muita coisa num lugar só.\n\nEm dia de chuva ou de muito calor, é para lá que muita gente vai: o ar-condicionado, o cinema e a praça de alimentação fazem dele um passeio fácil para qualquer idade. Pelo site do shopping dá para ver a lista de lojas, os filmes em cartaz e as promoções.",
+    "Curiosidades": "O Bauru Shopping foi inaugurado em 25 de novembro de 1989 e, desde então, passou por quatro ampliações. Desde 2004 ele é administrado pela AD Shopping.\n\nFica perto das universidades, e virou o lugar para onde todo mundo vai em dia de chuva ou de muito calor. Hoje é considerado o maior shopping de Bauru e da região.",
+    "Ficha": [
+      "Inauguração: 25 de novembro de 1989",
+      "Ampliações: quatro",
+      "Administração: AD Shopping (desde 2004)"
+    ],
+    "Endereco": "R. Henrique Savi, 15-55 - Vila Nova Cidade Universitária, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/Z2QHHbN81CZbCtSi6",
+    "Telefone": "(14) 3366-5000",
+    "Site": "https://baurushopping.com.br/",
+    "Instagram": "@baurushoppingoficial",
+    "LinkCardapio": "",
+    "LinkLoja": "https://baurushopping.com.br/",
+    "Preco": "Entrada gratuita",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "10:00",
+    "FechaSemana": "22:00",
+    "AbreSabado": "10:00",
+    "FechaSabado": "22:00",
+    "AbreDomingo": "14:00",
+    "FechaDomingo": "20:00",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "",
+    "OQueFazer": [
+      "Fazer compras nas lojas de departamento e marcas",
+      "Assistir a um filme no cinema",
+      "Comer na praça de alimentação",
+      "Fugir do calor ou da chuva com um passeio tranquilo",
+      "Ver as lojas e promoções pelo site antes de sair de casa",
+      "Levar as crianças para um passeio no ar-condicionado",
+      "Tomar um café ou sorvete depois das compras"
+    ],
+    "Dicas": [
+      "Confira no site do shopping a lista de lojas e os filmes em cartaz.",
+      "O Flipper Lanches fica na mesma rua.",
+      "Aos domingos as lojas abrem só à tarde, das 14h às 20h.",
+      "Em véspera de feriado e no fim de semana o estacionamento enche.",
+      "Fica pertinho das universidades e do Flipper Lanches."
+    ],
+    "LugaresPerto": [
+      7
+    ],
+    "Imagem": "Imagens/Pontos/bauru-shopping-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/bauru-shopping-2.jpg",
+      "Imagens/Pontos/bauru-shopping-3.jpg"
+    ],
+    "Fontes": [
+      "Abrasce",
+      "JCNET / Sampi",
+      "Social Bauru"
+    ]
+  },
+  {
+    "Id": 20,
+    "Nome": "Boulevard Shopping",
+    "Categoria": "Compras",
+    "Descricao": "O Boulevard Shopping é o shopping mais novo de Bauru, com prédio moderno, corredores amplos e uma boa variedade de lojas, além de cinema, restaurantes e praça de alimentação. É uma opção para quem quer fazer compras com calma e conforto.\n\nDurante a semana o movimento costuma ser mais tranquilo, bom para quem não gosta de tumulto. Pelo site do shopping dá para conferir as lojas, as opções de alimentação e a programação do cinema antes de sair de casa.",
+    "Curiosidades": "O Boulevard Shopping foi inaugurado em 29 de novembro de 2012. O investimento passou de 200 milhões de reais, e o prédio tem cerca de 70 mil metros quadrados de área construída.\n\nO shopping comemora o aniversário todo 29 de novembro, e ao longo dos anos foi trazendo lojas e marcas que ainda não existiam na região.",
+    "Ficha": [
+      "Inauguração: 29 de novembro de 2012",
+      "Área construída: cerca de 70 mil m²",
+      "Investimento: mais de R$ 200 milhões"
+    ],
+    "Endereco": "R. Marcondes Salgado, 11-39 - Chácara das Flores, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/TJmpw5hgkgCmH9Ca9",
+    "Telefone": "",
+    "Site": "https://www.boulevardshoppingbauru.com.br/",
+    "Instagram": "@boulevardbauru",
+    "LinkCardapio": "",
+    "LinkLoja": "https://www.boulevardshoppingbauru.com.br/",
+    "Preco": "Entrada gratuita",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "10:00",
+    "FechaSemana": "22:00",
+    "AbreSabado": "10:00",
+    "FechaSabado": "22:00",
+    "AbreDomingo": "14:00",
+    "FechaDomingo": "20:00",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "",
+    "OQueFazer": [
+      "Fazer compras com calma",
+      "Assistir a um filme no cinema",
+      "Almoçar ou jantar nos restaurantes",
+      "Passear num ambiente moderno e confortável",
+      "Ver as lojas e o cinema pelo site antes de ir",
+      "Fazer um programa completo: compras, almoço e cinema",
+      "Passear com calma num ambiente climatizado"
+    ],
+    "Dicas": [
+      "Durante a semana o shopping fica mais vazio.",
+      "Confira as lojas e o cinema no site antes de ir.",
+      "Aos domingos as lojas abrem só à tarde, das 14h às 20h.",
+      "Durante a semana, de manhã, o shopping fica bem tranquilo."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/boulevard-shopping-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/boulevard-shopping-2.jpg",
+      "Imagens/Pontos/boulevard-shopping-3.jpg",
+      "Imagens/Pontos/boulevard-shopping-4.jpg",
+      "Imagens/Pontos/boulevard-shopping-5.jpg"
+    ],
+    "Fontes": [
+      "Abrasce",
+      "JCNET / Sampi"
+    ]
+  },
+  {
+    "Id": 21,
+    "Nome": "Alameda Rodoserv Center",
+    "Categoria": "Compras",
+    "Descricao": "O Alameda Rodoserv Center é um centro comercial na beira da Rodovia Marechal Rondon, com lojas, restaurantes e serviços reunidos no mesmo lugar. Como o acesso é pela rodovia e o estacionamento é fácil, ele quebra um galho para quem está de passagem pela cidade.\n\nTambém é prático para quem mora por perto e quer resolver as coisas rápido, sem precisar ir até o centro ou enfrentar o movimento dos shoppings maiores. É uma boa parada para comer alguma coisa durante uma viagem.",
+    "Curiosidades": "O complexo começou em 2006 com o nome de Alameda Quality Center. Em 2015 a imprensa local noticiou a venda para o grupo Rodoserv, e o lugar passou a se chamar Alameda Rodoserv Center.\n\nFica na beira da Rodovia Marechal Rondon e reúne praça de alimentação, restaurantes, lojas, cinema, hotel e espaço de eventos, onde acontecem shows, como a série \"Blues no Alameda\".",
+    "Ficha": [
+      "Início: 2006, como Alameda Quality Center",
+      "Grupo Rodoserv: desde 2015 (segundo a imprensa)",
+      "Local: Rodovia Marechal Rondon"
+    ],
+    "Endereco": "R. Luís Levorato, 1-55 (Rod. Marechal Rondon) - Jardim Marabá, Bauru - SP",
+    "LinkMaps": "https://maps.app.goo.gl/tcNhbfwUqi3yzDv58",
+    "Telefone": "(14) 3321-5000",
+    "Site": "",
+    "Instagram": "@alamedarodoservcenter",
+    "LinkCardapio": "",
+    "LinkLoja": "",
+    "Preco": "Entrada gratuita",
+    "IngressoAPartirDe": "",
+    "AbreSemana": "00:00",
+    "FechaSemana": "00:00",
+    "AbreSabado": "00:00",
+    "FechaSabado": "00:00",
+    "AbreDomingo": "00:00",
+    "FechaDomingo": "00:00",
+    "FechadoSegunda": false,
+    "ObservacaoHorario": "Segundo o perfil oficial, o centro funciona 24 horas. Cada loja e restaurante tem o seu próprio horário.",
+    "OQueFazer": [
+      "Fazer uma parada para comer durante a viagem",
+      "Resolver compras e serviços rapidamente",
+      "Aproveitar o estacionamento fácil",
+      "Fazer um lanche rápido na beira da rodovia",
+      "Resolver compras do dia a dia sem entrar no centro"
+    ],
+    "Dicas": [
+      "É uma boa parada para quem está pegando a Rodovia Marechal Rondon.",
+      "Bom para quem está chegando ou saindo de Bauru pela Marechal Rondon.",
+      "O estacionamento costuma ser mais fácil que o dos shoppings."
+    ],
+    "LugaresPerto": [],
+    "Imagem": "Imagens/Pontos/alameda-rodoserv-center-1.jpg",
+    "Fotos": [
+      "Imagens/Pontos/alameda-rodoserv-center-2.jpg",
+      "Imagens/Pontos/alameda-rodoserv-center-3.jpg"
+    ],
+    "Fontes": [
+      "JCNET / Sampi",
+      "Social Bauru",
+      "96FM Bauru",
+      "Instagram @alamedarodoservcenter (horários)"
+    ]
+  }
+]

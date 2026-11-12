@@ -1,0 +1,14 @@
+﻿Fotos dos pontos turísticos
+
+Cada lugar tem as fotos com o mesmo nome e um número no final:
+  parque-vitoria-regia-1.jpg, parque-vitoria-regia-2.jpg, ...
+
+A foto 1 é a principal (aparece no card da tela de busca).
+As outras aparecem na galeria da tela de detalhes (setas ‹ ›).
+
+No pontos.json:
+  "Imagem" = foto principal
+  "Fotos"  = lista com as outras fotos
+
+Pra trocar ou colocar uma foto nova, é só salvar aqui com o nome certo
+e colocar o caminho no pontos.json.
